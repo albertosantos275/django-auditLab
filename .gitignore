@@ -1,0 +1,10 @@
+.vscode/*
+/env*
+/bert_model/model
+/bert_model/training
+*.log
+*.pyc
+*.exe
+/__pycache__*
+ZHelp.txt
+
