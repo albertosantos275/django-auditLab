@@ -1,0 +1,109 @@
+
+#git config --global credential.helper store
+
+#install venv
+sudo -H pip3 install --upgrade pip
+sudo -H pip3 install virtualenv
+
+#from the virtual env
+pip3 install django gunicorn psycopg2
+pip install gunicorn
+pip3 install -r requirements.txt
+#test gunicorn
+gunicorn --bind 0.0.0.0:8000 auditLab.wsgi
+
+
+#Create a Gunicorn systemd Service File
+sudo nano /etc/systemd/system/auditLab_gunicorn.service
+
+##########################33
+    [Unit]
+    Description=Audot Lab  Gunicorn Daemon
+    After=network.target
+
+    [Service]
+    User=albertosantos275
+    Group=www-data
+    WorkingDirectory=/home/albertosantos275/django-auditLab
+    ExecStart=/home/albertosantos275/django-auditLab/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/albertosantos275/django-auditLab/auditLab.sock auditLab.wsgi:application
+
+    [Install]
+    WantedBy=multi-user.target
+############################
+/home/alberto/Desktop/news_django_scrapper_manager/auditLab_manager/auditLab_manager/celery
+
+sudo systemctl start auditLab_gunicorn.service
+sudo systemctl enable auditLab_gunicorn.service
+sudo systemctl status auditLab_gunicorn.service
+
+sudo journalctl -u auditLab_gunicorn.service
+
+
+#If you make changes to the /etc/systemd/system/gunicorn.service file, 
+#reload the daemon to reread the service definition and restart the Gunicorn process by typing
+
+sudo systemctl daemon-reload
+sudo systemctl restart auditLab_gunicorn.service
+
+sudo apt update
+sudo apt install nginx
+
+#Configure Nginx to Proxy Pass to Gunicorn
+
+sudo nano /etc/nginx/sites-available/auditLab
+
+#################
+server {
+    listen 80;
+    server_name 35.238.211.51;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/albertosantos275/django-auditLab;
+    }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/albertosantos275/django-auditLab/auditLab.sock;
+    }
+}
+##################
+
+#Save and close the file when you are finished. Now, 
+#we can enable the file by linking it to the sites-enabled directory:
+sudo ln -s /etc/nginx/sites-available/auditLab /etc/nginx/sites-enabled
+
+#Test your Nginx configuration for syntax errors by typing:
+sudo nginx -t
+#If no errors are reported, go ahead and restart Nginx by typing:
+sudo systemctl restart nginx
+
+#Finally, we need to open up our firewall to normal traffic on port 80. 
+#Since we no longer need access to the development server, we can remove 
+#the rule to open port 8000 as well:
+
+sudo ufw delete allow 8000
+sudo ufw allow 'Nginx Full
+
+
+#testing 
+namei -nom /home/ubuntu/django-news-scrapper/auditLab.sock
+
+
+#chrone dictsortreversed
+sudo apt-get update
+sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
+
+sudo apt-get install default-jdk 
+
+sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
+sudo echo "deb [arch=amd64]  http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list
+sudo apt-get -y update
+sudo apt-get -y install google-chrome-stable
+
+wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+
+sudo mv chromedriver /usr/bin/chromedriver
+sudo chown root:root /usr/bin/chromedriver
+sudo chmod +x /usr/bin/chromedriver
