@@ -18,6 +18,7 @@ class Batch(models.Model):
     status = models.CharField(max_length=100, blank=False, unique=True)
     bank_id = models.ForeignKey(Bank,related_name='batch_bank',on_delete=models.CASCADE,unique=False,blank=False,null=False)
     store_path = models.CharField(max_length=200, blank=True)
+    processed_time = models.DateTimeField(default=datetime.now, blank=True)
     create_on = models.DateTimeField(default=datetime.now, blank=True)
     def __str__(self):
         return self.status + "--" + self.bank_id
