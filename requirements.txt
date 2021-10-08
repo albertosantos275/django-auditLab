@@ -35,8 +35,6 @@ flatbuffers==1.12
 gast==0.3.3
 geographiclib==1.50
 geopy==2.1.0
-grpcio==1.32.0
-h5py==2.10.0
 httplib2==0.18.1
 idna==2.10
 imageio==2.9.0
@@ -56,7 +54,6 @@ opt-einsum==3.3.0
 packaging==20.9
 pandas==1.2.2
 params-flow==0.8.2
-pickle5==0.0.11
 Pillow==8.1.0
 proglog==0.1.9
 protobuf==3.14.0
