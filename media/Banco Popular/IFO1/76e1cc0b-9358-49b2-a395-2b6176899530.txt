@@ -1,0 +1,24 @@
+startup-static has-background-light
+
+
+EkkoDesktopSidebar
+
+
+blockingPromises.push(EkkoGame.loadingAllGames())
+
+
+
+blockingPromises.push(FeedLatest.fetchingAndInsert())
+
+
+
+this.UserTrending.loading()
+
+
+        await this.loadFriendSuggestions().finally(() => {
+            this.isLoadingSuggestedFriends = false
+          })
+
+        // await this.loadTrendingUsers().finally(() => {
+        //   this.isLoadingTrendingUsers = false
+        // })

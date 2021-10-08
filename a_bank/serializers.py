@@ -15,7 +15,7 @@ class FileSerializer(serializers.ModelSerializer):
    
     class Meta:
         model = File
-        fields = ['id',"name","file_type","batch_id"]
+        fields = ['id',"name","Files_type","batch_id"]
         extra_kwargs = {'id': {'required': False}}
         
 class BatchSerializer(serializers.ModelSerializer):

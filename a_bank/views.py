@@ -53,7 +53,7 @@ class FileFilter(django_filters.FilterSet):
 
     class Meta:
         model = File
-        fields = ['name']
+        fields = ['file_name']
 
 #File Api View
 class  FileAPIView(generics.GenericAPIView,mixins.CreateModelMixin,mixins.ListModelMixin,
