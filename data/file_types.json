@@ -1,0 +1,76 @@
+[
+    {
+        "model": "a_bank.filetypes",
+        "pk": 1,
+        "fields": {
+            "name": "Captaciones",
+            "code": "CA01"
+        }
+    },
+    {
+        "model": "a_bank.filetypes",
+        "pk": 2,
+        "fields": {
+            "name": "Transacciones Efectivo USD15M",
+            "code": "IF01"
+        }
+    },
+    {
+        "model": "a_bank.filetypes",
+        "pk": 3,
+        "fields": {
+            "name": "Compra y Venta de Divisas",
+            "code": "FD01"
+        }
+    },
+    {
+        "model": "a_bank.filetypes",
+        "pk": 4,
+        "fields": {
+            "name": "Transferencias",
+            "code": "FD03B"
+        }
+    },
+    {
+        "model": "a_bank.filetypes",
+        "pk": 5,
+        "fields": {
+            "name": "Créditos Comerciales",
+            "code": "D11"
+        }
+    },
+    {
+        "model": "a_bank.filetypes",
+        "pk": 6,
+        "fields": {
+            "name": "Créditos Consumo",
+            "code": "D13"
+        }
+    },
+    {
+        "model": "a_bank.filetypes",
+        "pk": 7,
+        "fields": {
+            "name": "Tarjetas de Créditos Personales",
+            "code": "D14"
+        }
+    },
+    {
+        "model": "a_bank.filetypes",
+        "pk": 8,
+        "fields": {
+            "name": "Créditos Hipotecarios",
+            "code": "D15"
+        }
+    },
+    {
+        "model": "a_bank.filetypes",
+        "pk": 9,
+        "fields": {
+            "name": "Tarjeta Prepago",
+            "code": "TP01"
+        }
+    }
+
+
+]

@@ -1,0 +1,9 @@
+
+
+#Loading data 
+python manage.py loaddata ./data/file_type.json 
+
+#Saving Data
+./manage.py dumpdata > databasedump.json                # full database
+./manage.py dumpdata myapp > databasedump.json          # only 1 app
+./manage.py dumpdata myapp.mymodel > databasedump.json  # only 1 model (table)
