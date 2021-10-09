@@ -1,1 +1,236 @@
-[{"model": "a_bank.precendentcrime", "pk": 1, "fields": {"name": "Delito Tributario", "code": "DP0", "create_on": "2021-10-09T00:31:38.941"}}, {"model": "a_bank.precendentcrime", "pk": 2, "fields": {"name": "Delito de Medio Ambiente", "code": "DP1", "create_on": "2021-10-09T00:31:38.946"}}, {"model": "a_bank.precendentcrime", "pk": 3, "fields": {"name": "Tráfico Ilícito de seres humanos (incluyendo inmigrantes ilegales)", "code": "DP2", "create_on": "2021-10-09T00:31:38.947"}}, {"model": "a_bank.precendentcrime", "pk": 4, "fields": {"name": "Piratería o Falsificacíon", "code": "DP3", "create_on": "2021-10-09T00:31:38.951"}}, {"model": "a_bank.precendentcrime", "pk": 5, "fields": {"name": "Contrabando", "code": "DP4", "create_on": "2021-10-09T00:31:38.952"}}, {"model": "a_bank.precendentcrime", "pk": 6, "fields": {"name": "Estafa", "code": "DP5", "create_on": "2021-10-09T00:31:38.956"}}, {"model": "a_bank.precendentcrime", "pk": 7, "fields": {"name": "Delito contra la Propiedad Intelectual", "code": "DP6", "create_on": "2021-10-09T00:31:38.960"}}, {"model": "a_bank.precendentcrime", "pk": 8, "fields": {"name": "Extorsión (incluyendo aquellas relacionadas con las grabaciones y fílmicas electrónicas realizadas por personas físicas o morales)", "code": "DP7", "create_on": "2021-10-09T00:31:38.963"}}, {"model": "a_bank.precendentcrime", "pk": 9, "fields": {"name": "Falsificación de Documentos Públicos", "code": "DP8", "create_on": "2021-10-09T00:31:38.965"}}, {"model": "a_bank.precendentcrime", "pk": 10, "fields": {"name": "Uso indebido de Información Confidencial o Privilegiada", "code": "DP9", "create_on": "2021-10-09T00:31:38.966"}}, {"model": "a_bank.precendentcrime", "pk": 11, "fields": {"name": "Crímenes y Delitos de Alta Tecnología", "code": "DP10", "create_on": "2021-10-09T00:31:38.967"}}, {"model": "a_bank.precendentcrime", "pk": 12, "fields": {"name": "Falsificación y Adulteración de Medicamentos Alimentos y Bebidas", "code": "DP11", "create_on": "2021-10-09T00:31:38.968"}}, {"model": "a_bank.precendentcrime", "pk": 13, "fields": {"name": "Tráfico Ilícito de Armas", "code": "DP12", "create_on": "2021-10-09T00:31:38.969"}}, {"model": "a_bank.precendentcrime", "pk": 14, "fields": {"name": "Infracción relacionada con el Financiamiento del Terrorismo", "code": "DP13", "create_on": "2021-10-09T00:31:38.970"}}, {"model": "a_bank.precendentcrime", "pk": 15, "fields": {"name": "Falsificación de monedas valores o títulos", "code": "DP14", "create_on": "2021-10-09T00:31:38.971"}}, {"model": "a_bank.precendentcrime", "pk": 16, "fields": {"name": "Tráfico Ilícito de Mercancías, Obras de Arte, Joyas y Esculturas", "code": "DP15", "create_on": "2021-10-09T00:31:38.972"}}, {"model": "a_bank.precendentcrime", "pk": 17, "fields": {"name": "Manipulación del Mercado", "code": "DP16", "create_on": "2021-10-09T00:31:38.974"}}, {"model": "a_bank.precendentcrime", "pk": 18, "fields": {"name": "Estafa contra el Estado, desfalco, concusión, cohecho, soborno, tráfico de influencia, prevaricación y delitos cometidos por los funcionarios públicos en el ejercicio de sus funciones", "code": "DP17", "create_on": "2021-10-09T00:31:38.975"}}, {"model": "a_bank.precendentcrime", "pk": 19, "fields": {"name": "Tráfico ilícito de drogas y sustancias controladas", "code": "DP18", "create_on": "2021-10-09T00:31:38.976"}}, {"model": "a_bank.precendentcrime", "pk": 20, "fields": {"name": "Robo", "code": "DP19", "create_on": "2021-10-09T00:31:38.977"}}, {"model": "a_bank.precendentcrime", "pk": 22, "fields": {"name": "Testaferrato", "code": "DP21", "create_on": "2021-10-09T00:31:38.980"}}, {"model": "a_bank.precendentcrime", "pk": 23, "fields": {"name": "Delitos Financieros", "code": "DP22", "create_on": "2021-10-09T00:31:38.981"}}, {"model": "a_bank.precendentcrime", "pk": 24, "fields": {"name": "Robo Agravado", "code": "DP23", "create_on": "2021-10-09T00:31:38.982"}}, {"model": "a_bank.precendentcrime", "pk": 25, "fields": {"name": "Piratería de Productos", "code": "DP24", "create_on": "2021-10-09T00:31:38.983"}}, {"model": "a_bank.precendentcrime", "pk": 27, "fields": {"name": "Enriquecimiento No Justificado", "code": "DP25", "create_on": "2021-10-09T00:36:45"}}, {"model": "a_bank.precendentcrime", "pk": 29, "fields": {"name": "Estafa Agravada", "code": "DP26", "create_on": "2021-10-09T00:38:32"}}]
+[
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 1,
+        "fields": {
+            "name": "Delito Tributario",
+            "code": "DP0",
+            "create_on": "2021-10-09T00:31:38.941"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 2,
+        "fields": {
+            "name": "Delito de Medio Ambiente",
+            "code": "DP1",
+            "create_on": "2021-10-09T00:31:38.946"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 3,
+        "fields": {
+            "name": "Trï¿½fico Ilï¿½cito de seres humanos (incluyendo inmigrantes ilegales)",
+            "code": "DP2",
+            "create_on": "2021-10-09T00:31:38.947"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 4,
+        "fields": {
+            "name": "Piraterï¿½a o Falsificacï¿½on",
+            "code": "DP3",
+            "create_on": "2021-10-09T00:31:38.951"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 5,
+        "fields": {
+            "name": "Contrabando",
+            "code": "DP4",
+            "create_on": "2021-10-09T00:31:38.952"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 6,
+        "fields": {
+            "name": "Estafa",
+            "code": "DP5",
+            "create_on": "2021-10-09T00:31:38.956"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 7,
+        "fields": {
+            "name": "Delito contra la Propiedad Intelectual",
+            "code": "DP6",
+            "create_on": "2021-10-09T00:31:38.960"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 8,
+        "fields": {
+            "name": "Extorsiï¿½n (incluyendo aquellas relacionadas con las grabaciones y fï¿½lmicas electrï¿½nicas realizadas por personas fï¿½sicas o morales)",
+            "code": "DP7",
+            "create_on": "2021-10-09T00:31:38.963"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 9,
+        "fields": {
+            "name": "Falsificaciï¿½n de Documentos Pï¿½blicos",
+            "code": "DP8",
+            "create_on": "2021-10-09T00:31:38.965"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 10,
+        "fields": {
+            "name": "Uso indebido de Informaciï¿½n Confidencial o Privilegiada",
+            "code": "DP9",
+            "create_on": "2021-10-09T00:31:38.966"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 11,
+        "fields": {
+            "name": "Crï¿½menes y Delitos de Alta Tecnologï¿½a",
+            "code": "DP10",
+            "create_on": "2021-10-09T00:31:38.967"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 12,
+        "fields": {
+            "name": "Falsificaciï¿½n y Adulteraciï¿½n de Medicamentos Alimentos y Bebidas",
+            "code": "DP11",
+            "create_on": "2021-10-09T00:31:38.968"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 13,
+        "fields": {
+            "name": "Trï¿½fico Ilï¿½cito de Armas",
+            "code": "DP12",
+            "create_on": "2021-10-09T00:31:38.969"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 14,
+        "fields": {
+            "name": "Infracciï¿½n relacionada con el Financiamiento del Terrorismo",
+            "code": "DP13",
+            "create_on": "2021-10-09T00:31:38.970"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 15,
+        "fields": {
+            "name": "Falsificaciï¿½n de monedas valores o tï¿½tulos",
+            "code": "DP14",
+            "create_on": "2021-10-09T00:31:38.971"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 16,
+        "fields": {
+            "name": "Trï¿½fico Ilï¿½cito de Mercancï¿½as, Obras de Arte, Joyas y Esculturas",
+            "code": "DP15",
+            "create_on": "2021-10-09T00:31:38.972"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 17,
+        "fields": {
+            "name": "Manipulaciï¿½n del Mercado",
+            "code": "DP16",
+            "create_on": "2021-10-09T00:31:38.974"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 18,
+        "fields": {
+            "name": "Estafa contra el Estado, desfalco, concusiï¿½n, cohecho, soborno, trï¿½fico de influencia, prevaricaciï¿½n y delitos cometidos por los funcionarios pï¿½blicos en el ejercicio de sus funciones",
+            "code": "DP17",
+            "create_on": "2021-10-09T00:31:38.975"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 19,
+        "fields": {
+            "name": "Trï¿½fico ilï¿½cito de drogas y sustancias controladas",
+            "code": "DP18",
+            "create_on": "2021-10-09T00:31:38.976"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 20,
+        "fields": {
+            "name": "Robo",
+            "code": "DP19",
+            "create_on": "2021-10-09T00:31:38.977"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 22,
+        "fields": {
+            "name": "Testaferrato",
+            "code": "DP21",
+            "create_on": "2021-10-09T00:31:38.980"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 23,
+        "fields": {
+            "name": "Delitos Financieros",
+            "code": "DP22",
+            "create_on": "2021-10-09T00:31:38.981"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 24,
+        "fields": {
+            "name": "Robo Agravado",
+            "code": "DP23",
+            "create_on": "2021-10-09T00:31:38.982"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 25,
+        "fields": {
+            "name": "Piraterï¿½a de Productos",
+            "code": "DP24",
+            "create_on": "2021-10-09T00:31:38.983"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 27,
+        "fields": {
+            "name": "Enriquecimiento No Justificado",
+            "code": "DP25",
+            "create_on": "2021-10-09T00:36:45"
+        }
+    },
+    {
+        "model": "a_bank.precendentcrime",
+        "pk": 29,
+        "fields": {
+            "name": "Estafa Agravada",
+            "code": "DP26",
+            "create_on": "2021-10-09T00:38:32"
+        }
+    }
+]

@@ -135,6 +135,24 @@ def test_views(request):
     
     if request.method=='GET':
 
+        for crime in PrecendentCrime.objects.all():
+            activities =  Activity.objects.filter(DP3=crime.name)
+            if len(activities) > 0:
+                for acti in activities:
+                    acti.precedent_crime_ids.add(crime.id)
+                    print(acti.DP3, crime.name)
+
+        # for risk in Risk.objects.all():
+        #     activities =  Activity.objects.filter(R3=risk.name)
+        #     if len(activities) > 0:
+        #         for acti in activities:
+        #             acti.risk_ids.add(risk.id)
+        #             print(acti.R3, risk.name)
+                    
+                    # print('==', acti.activity,len(acti.risk_ids.all()))
+                    # for test in acti.risk_ids.all():
+                    #     print(test.name)
+
         # print('getting data processs ======================> ',list(Activity.objects.distinct().values_list('DP1',flat=True)))
         # risks = list(Activity.objects.distinct().values_list('R3',flat=True))
         # for i in range(0, len(risks)):
