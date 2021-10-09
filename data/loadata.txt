@@ -2,6 +2,7 @@
 
 #Loading data 
 python manage.py loaddata ./data/file_type.json 
+python manage.py loaddata ./data/activity.json 
 
 #Saving Data
 ./manage.py dumpdata > databasedump.json                # full database

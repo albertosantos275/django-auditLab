@@ -61,3 +61,23 @@ class File(models.Model):
 
 
 
+class Activity(models.Model):    
+    code_ciiv = models.CharField(max_length=100, blank=False, unique=True)
+    macro = models.CharField(max_length=80, blank=True, unique=False)
+    activity = models.CharField(max_length=20, blank=True, unique=False)
+
+    DP1 = models.CharField(max_length=100, blank=True, unique=False)
+    DP2 = models.CharField(max_length=100, blank=True, unique=False)
+    DP3 = models.CharField(max_length=100, blank=True, unique=False)
+
+    R1 = models.CharField(max_length=100, blank=True, unique=False)
+    R2 = models.CharField(max_length=100, blank=True, unique=False)
+    R3 = models.CharField(max_length=100, blank=True, unique=False)
+
+    create_on = models.DateTimeField(default=datetime.now, blank=True)
+    def __str__(self):
+        return self.macro + ' -- ' +  self.activity
+    class Meta:
+        verbose_name = '5- Activity'
+
+
