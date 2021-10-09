@@ -18,4 +18,7 @@ urlpatterns = [
     path('batch/', views.BatchAPIView.as_view()),
 
 
+    #test function view
+   path('test_app/',views.test_views, name='test_views'),
+
 ]

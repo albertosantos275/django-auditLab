@@ -64,15 +64,17 @@ class File(models.Model):
 class Activity(models.Model):    
     code_ciiv = models.CharField(max_length=100, blank=False, unique=True)
     macro = models.CharField(max_length=80, blank=True, unique=False)
-    activity = models.CharField(max_length=20, blank=True, unique=False)
+    activity = models.CharField(max_length=100, blank=True, unique=False)
+    precedent_crime_ids =  models.ManyToManyField('PrecendentCrime',blank=True, unique=False)
+    risk_ids =  models.ManyToManyField('Risk',blank=True, unique=False)
 
-    DP1 = models.CharField(max_length=100, blank=True, unique=False)
-    DP2 = models.CharField(max_length=100, blank=True, unique=False)
-    DP3 = models.CharField(max_length=100, blank=True, unique=False)
+    DP1 = models.CharField(max_length=250, blank=True, unique=False)
+    DP2 = models.CharField(max_length=250, blank=True, unique=False)
+    DP3 = models.CharField(max_length=250, blank=True, unique=False)
 
-    R1 = models.CharField(max_length=100, blank=True, unique=False)
-    R2 = models.CharField(max_length=100, blank=True, unique=False)
-    R3 = models.CharField(max_length=100, blank=True, unique=False)
+    R1 = models.CharField(max_length=250, blank=True, unique=False)
+    R2 = models.CharField(max_length=250, blank=True, unique=False)
+    R3 = models.CharField(max_length=250, blank=True, unique=False)
 
     create_on = models.DateTimeField(default=datetime.now, blank=True)
     def __str__(self):
@@ -81,3 +83,23 @@ class Activity(models.Model):
         verbose_name = '5- Activity'
 
 
+class Risk(models.Model):    
+    name = models.CharField(max_length=100, blank=False, unique=True)
+    code = models.CharField(max_length=20, blank=False, unique=True)
+
+    create_on = models.DateTimeField(default=datetime.now, blank=True)
+    def __str__(self):
+        return self.name 
+
+    class Meta:
+        verbose_name = '6- Risk'
+
+class PrecendentCrime(models.Model):    
+    name = models.CharField(max_length=100, blank=False, unique=True)
+    code = models.CharField(max_length=20, blank=False, unique=True)
+    create_on = models.DateTimeField(default=datetime.now, blank=True)
+
+    def __str__(self):
+        return self.name 
+    class Meta:
+        verbose_name = '7- Crime'

@@ -8,7 +8,7 @@ from rest_framework import generics
 from rest_framework import mixins
 from django.shortcuts import render
 import django_filters
-from a_bank.models import Bank, Batch, File
+from a_bank.models import Bank, Batch, File, Risk
 from a_bank.serializers import BankSerializer, FileSerializer, BatchSerializer
 
 
@@ -125,5 +125,53 @@ class  BatchAPIView(generics.GenericAPIView,mixins.CreateModelMixin,mixins.ListM
 
 
 
+from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.http import require_http_methods
+from a_bank.models import Activity, PrecendentCrime,Risk
 
+@csrf_exempt
+@require_http_methods(["GET","POST"])
+def test_views(request):  
+    
+    if request.method=='GET':
+
+        # print('getting data processs ======================> ',list(Activity.objects.distinct().values_list('DP1',flat=True)))
+        # risks = list(Activity.objects.distinct().values_list('R3',flat=True))
+        # for i in range(0, len(risks)):
+        #     risk_query = Risk.objects.filter(  
+                            
+        #         name = risks[i]
+        #     )
+        #     if len(risk_query) == 0:
+        #         risk =  Risk(
+
+        #             name = risks[i],
+        #             code = 'R' + str(i)
+        #         )
+        #         risk.save()
+
+
+
+
+
+
+
+        # print('getting data processs ======================> ',list(Activity.objects.distinct().values_list('DP1',flat=True)))
+        # crimes = list(Activity.objects.distinct().values_list('DP3',flat=True))
+        # for i in range(0, len(crimes)):
+        #     crime_query = PrecendentCrime.objects.filter(  
+                            
+        #         name = crimes[i]
+        #     )
+        #     if len(crime_query) == 0:
+        #         precent_crime =  PrecendentCrime(
+
+        #             name = crimes[i],
+        #             code = 'DPnew' + str(i)
+        #         )
+        #         precent_crime.save()
+
+
+        json_res = {}
+        return HttpResponse(json_res,content_type='application/json')
 

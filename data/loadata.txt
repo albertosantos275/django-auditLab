@@ -1,10 +1,15 @@
 
 
 #Loading data 
-python manage.py loaddata ./data/file_type.json 
+python manage.py loaddata ./data/file_types.json 
 python manage.py loaddata ./data/activity.json 
 
 #Saving Data
 ./manage.py dumpdata > databasedump.json                # full database
 ./manage.py dumpdata myapp > databasedump.json          # only 1 app
 ./manage.py dumpdata myapp.mymodel > databasedump.json  # only 1 model (table)
+
+
+python manage.py dumpdata a_bank.Risk > risks.json 
+python manage.py dumpdata a_bank.PrecendentCrime > crimes.json 
+python manage.py dumpdata a_bank.Activity > activities.json 
