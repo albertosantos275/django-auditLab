@@ -1,5 +1,6 @@
 .vscode/*
 /env*
+/media*
 /bert_model/model
 /bert_model/training
 *.log
@@ -7,4 +8,6 @@
 *.exe
 /__pycache__*
 ZHelp.txt
+# *.sqlite3
+# db.sqlite3
 

@@ -10,7 +10,13 @@ from django.shortcuts import render
 import django_filters
 from a_bank.models import Bank, Batch, File, Risk,FileTypes
 from a_bank.serializers import BankSerializer, FileSerializer, BatchSerializer,FileTypesSerializer
+from datetime import timedelta
+from pathlib import Path
+import os
 
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
+MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
 class BankFilter(django_filters.FilterSet):
 
@@ -353,12 +359,12 @@ from django.views.decorators.http import require_http_methods
 from a_bank.models import Activity, PrecendentCrime,Risk
 from datetime import datetime
 
-@csrf_exempt
-@require_http_methods(["GET","POST"])
-def test_views(request): 
 
-    if request.method=='POST':
-        print(request.POST)
+@csrf_exempt
+@require_http_methods(["GET", "POST"])
+def test_views(request):
+
+    if request.method == 'POST':
         json_res = {}
         bank_id = request.POST.get('bank_id', '')
         file_type_id = request.POST.get('file_type_id', '')
@@ -366,109 +372,138 @@ def test_views(request):
         number_files = len(request.FILES.getlist('files'))
         bank = Bank.objects.get(id=bank_id)
         file_type = FileTypes.objects.get(id=file_type_id)
-        batch = Batch(bank_id=bank, file_type_id=file_type, number_files_submitted = number_files)
+        batch = Batch(bank_id=bank, file_type_id=file_type,
+                      number_files_submitted=number_files)
         batch.save()
         for f in request.FILES.getlist('files'):
             file = File(file_url=f, batch_id=batch, file_name=f.name,
-                       file_format=f.content_type, file_size=f.size
-                       
-                       )
+                        file_format=f.content_type, file_size=f.size
+                        )
             file.save()
+        file_paths = File.objects.filter(
+            batch_id=batch.id).values_list('file_url', flat=True)
+
+        absolute_files_path = []
+        if len(file_paths) > 0:
+            for path in file_paths:
+                absolute_files_path.append(MEDIA_DIR + '/' + path)
+
+        # TODO method to report
+        batch_info = {}
+        batch_info['batch_id'] = batch.id
+        batch_info['absolute_files_path'] = absolute_files_path
+        batch_info['file_type_id'] = batch.file_type_id.id
+        batch_info['file_type_code'] = batch.file_type_id.code
+        batch_info['result_storage_path'] = MEDIA_DIR + '/' + 'ResultStorage'
+
+        print(batch_info)
 
         return HttpResponse(json_res, content_type='application/json')
-    
-    if request.method=='GET':
 
 
-        # activities =  Activity.objects.filter(macro='Agricultura_test')
-        # activities.delete()
 
-        ## test to copy m,any input at once
-        # now = datetime.now()
-        # current_time = now.strftime("%H:%M:%S")
-        # print(" Time Start =", current_time)
 
-        # thing_objects = []
+
+
+
+
+
+
+
+
+
+    # if request.method=='GET':
+
+
+    #     # activities =  Activity.objects.filter(macro='Agricultura_test')
+    #     # activities.delete()
+
+    #     ## test to copy m,any input at once
+    #     # now = datetime.now()
+    #     # current_time = now.strftime("%H:%M:%S")
+    #     # print(" Time Start =", current_time)
+
+    #     # thing_objects = []
         
-        # for i in range(0,1000000):
-        #     new_activity = Activity(code_ciiv='9999999'+str(i), macro='Agricultura_test',
-        #                             activity='10000 Agricultura',
-        #                             DP1='Actividad Comercial sin Permisos Correspondientes',
-        #                             DP2='Actividad Comercial sin Permisos Correspondientes',
-        #                             DP3='Actividad Comercial sin Permisos Correspondientes',
-        #                             R1='test data',
-        #                             R2='test data',
-        #                             R3='test data'
-        #                             )
-        #     thing_objects.append(new_activity)
+    #     # for i in range(0,1000000):
+    #     #     new_activity = Activity(code_ciiv='9999999'+str(i), macro='Agricultura_test',
+    #     #                             activity='10000 Agricultura',
+    #     #                             DP1='Actividad Comercial sin Permisos Correspondientes',
+    #     #                             DP2='Actividad Comercial sin Permisos Correspondientes',
+    #     #                             DP3='Actividad Comercial sin Permisos Correspondientes',
+    #     #                             R1='test data',
+    #     #                             R2='test data',
+    #     #                             R3='test data'
+    #     #                             )
+    #     #     thing_objects.append(new_activity)
 
-        # Activity.objects.bulk_create(thing_objects)    
+    #     # Activity.objects.bulk_create(thing_objects)    
 
-        # now = datetime.now()
+    #     # now = datetime.now()
 
-        # current_time = now.strftime("%H:%M:%S")
-        # print(" Time End =", current_time)
+    #     # current_time = now.strftime("%H:%M:%S")
+    #     # print(" Time End =", current_time)
 
-        #     new_activity.precedent_crime_ids.add(1, 2, 4)
-        #     new_activity.risk_ids.add(1, 2, 4)
+    #     #     new_activity.precedent_crime_ids.add(1, 2, 4)
+    #     #     new_activity.risk_ids.add(1, 2, 4)
 
 
 
-        # for crime in PrecendentCrime.objects.all():
-        #     activities =  Activity.objects.filter(DP3=crime.name)
-        #     if len(activities) > 0:
-        #         for acti in activities:
-        #             acti.precedent_crime_ids.add(crime.id)
-        #             print(acti.DP3, crime.name)
+    #     # for crime in PrecendentCrime.objects.all():
+    #     #     activities =  Activity.objects.filter(DP3=crime.name)
+    #     #     if len(activities) > 0:
+    #     #         for acti in activities:
+    #     #             acti.precedent_crime_ids.add(crime.id)
+    #     #             print(acti.DP3, crime.name)
 
-        # for risk in Risk.objects.all():
-        #     activities =  Activity.objects.filter(R3=risk.name)
-        #     if len(activities) > 0:
-        #         for acti in activities:
-        #             acti.risk_ids.add(risk.id)
-        #             print(acti.R3, risk.name)
+    #     # for risk in Risk.objects.all():
+    #     #     activities =  Activity.objects.filter(R3=risk.name)
+    #     #     if len(activities) > 0:
+    #     #         for acti in activities:
+    #     #             acti.risk_ids.add(risk.id)
+    #     #             print(acti.R3, risk.name)
                     
-                    # print('==', acti.activity,len(acti.risk_ids.all()))
-                    # for test in acti.risk_ids.all():
-                    #     print(test.name)
+    #                 # print('==', acti.activity,len(acti.risk_ids.all()))
+    #                 # for test in acti.risk_ids.all():
+    #                 #     print(test.name)
 
-        # print('getting data processs ======================> ',list(Activity.objects.distinct().values_list('DP1',flat=True)))
-        # risks = list(Activity.objects.distinct().values_list('R3',flat=True))
-        # for i in range(0, len(risks)):
-        #     risk_query = Risk.objects.filter(  
+    #     # print('getting data processs ======================> ',list(Activity.objects.distinct().values_list('DP1',flat=True)))
+    #     # risks = list(Activity.objects.distinct().values_list('R3',flat=True))
+    #     # for i in range(0, len(risks)):
+    #     #     risk_query = Risk.objects.filter(  
                             
-        #         name = risks[i]
-        #     )
-        #     if len(risk_query) == 0:
-        #         risk =  Risk(
+    #     #         name = risks[i]
+    #     #     )
+    #     #     if len(risk_query) == 0:
+    #     #         risk =  Risk(
 
-        #             name = risks[i],
-        #             code = 'R' + str(i)
-        #         )
-        #         risk.save()
-
-
+    #     #             name = risks[i],
+    #     #             code = 'R' + str(i)
+    #     #         )
+    #     #         risk.save()
 
 
 
 
 
-        # print('getting data processs ======================> ',list(Activity.objects.distinct().values_list('DP1',flat=True)))
-        # crimes = list(Activity.objects.distinct().values_list('DP3',flat=True))
-        # for i in range(0, len(crimes)):
-        #     crime_query = PrecendentCrime.objects.filter(  
+
+
+    #     # print('getting data processs ======================> ',list(Activity.objects.distinct().values_list('DP1',flat=True)))
+    #     # crimes = list(Activity.objects.distinct().values_list('DP3',flat=True))
+    #     # for i in range(0, len(crimes)):
+    #     #     crime_query = PrecendentCrime.objects.filter(  
                             
-        #         name = crimes[i]
-        #     )
-        #     if len(crime_query) == 0:
-        #         precent_crime =  PrecendentCrime(
+    #     #         name = crimes[i]
+    #     #     )
+    #     #     if len(crime_query) == 0:
+    #     #         precent_crime =  PrecendentCrime(
 
-        #             name = crimes[i],
-        #             code = 'DPnew' + str(i)
-        #         )
-        #         precent_crime.save()
+    #     #             name = crimes[i],
+    #     #             code = 'DPnew' + str(i)
+    #     #         )
+    #     #         precent_crime.save()
 
 
-        json_res = {}
-        return HttpResponse(json_res,content_type='application/json')
+    #     json_res = {}
+    #     return HttpResponse(json_res,content_type='application/json')
 
