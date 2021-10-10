@@ -13,9 +13,13 @@ urlpatterns = [
     path('file/<int:id>/',views.FileAPIView.as_view()),
     path('file/', views.FileAPIView.as_view()),
 
+        # file API
+    path('file_types/<int:id>/',views.FileTypesAPIView.as_view()),
+    path('file_types/', views.FileTypesAPIView.as_view()),
+
     # batch API
-    path('batch/<int:id>/',views.BatchAPIView.as_view()),
-    path('batch/', views.BatchAPIView.as_view()),
+    path('batchs/<int:id>/',views.BatchAPIView.as_view()),
+    path('batchs/', views.BatchAPIView.as_view()),
 
 
     #test function view

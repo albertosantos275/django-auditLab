@@ -86,6 +86,9 @@ WSGI_APPLICATION = 'auditLab.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+#https://pmbaumgartner.github.io/blog/the-fastest-way-to-load-data-django-postgresql/
+#change db to priction and use PostgreSQL’s COPY command with django-postgres-copy
+#this help to cpy file faster into db
 
 DATABASES = {
     'default': {
