@@ -8,6 +8,6 @@
 *.exe
 /__pycache__*
 ZHelp.txt
-*.sqlite3
-db.sqlite3
+# *.sqlite3
+# db.sqlite3
 
