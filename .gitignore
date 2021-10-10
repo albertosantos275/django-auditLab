@@ -9,4 +9,5 @@
 /__pycache__*
 ZHelp.txt
 *.sqlite3
+db.sqlite3
 
