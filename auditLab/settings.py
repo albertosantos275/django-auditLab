@@ -84,6 +84,9 @@ TEMPLATES = [
 WSGI_APPLICATION = 'auditLab.wsgi.application'
 
 
+#to avoid RequestDataTooBig Request body exceeded settings.DATA_UPLOAD_MAX_MEMORY_SIZE
+DATA_UPLOAD_MAX_MEMORY_SIZE = 10242880
+
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 #https://pmbaumgartner.github.io/blog/the-fastest-way-to-load-data-django-postgresql/
