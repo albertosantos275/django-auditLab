@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from dateutil.parser import parse
 import json
+
 # Create your views here.
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import generics
@@ -13,6 +14,8 @@ from a_bank.serializers import BankSerializer, FileSerializer, BatchSerializer,F
 from datetime import timedelta
 from pathlib import Path
 import os
+
+from report_interface import launch_create_report
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -396,7 +399,9 @@ def test_views(request):
         batch_info['file_type_code'] = batch.file_type_id.code
         batch_info['result_storage_path'] = MEDIA_DIR + '/' + 'ResultStorage'
 
+        created_file=launch_create_report(batch_info)
         print(batch_info)
+        print(created_file)
 
         return HttpResponse(json_res, content_type='application/json')
 
