@@ -11,11 +11,12 @@ def launch_create_report(info):
     file_type= info['file_type_code']
     output_file= info['result_storage_path']+f"/{temp_name}"
     home_dir=expanduser('~')
+    print(input_dir,output_file, file_type)
     try:
-        args=["python3",f"{home_dir}/converter/main_django.py", input_dir,output_file, file_type]
+        args=["python3",f"{home_dir}/converter/main_django.py", input_dir[0],output_file, file_type]
         cp = subprocess.run(args)
     except Exception as e:
-        print(e)
+        print('Error == > ',e)
     return output_file
 
 #code for testing
