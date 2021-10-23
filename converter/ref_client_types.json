@@ -1,0 +1,320 @@
+{
+    "141": {
+        "codigo": "141",
+        "type": "Gran Empresa Zona Francas",
+        "definition": "Se consideran como Corporativas todas aquellas grandes empresas y/o grupos econ\u00f3micos, que posean empleados y ventas brutas superiores a los establecidos para la Mediana Empresa, conforme la Ley No. 187-\n17 de fecha 28 de julio de 2017, que modifica la Ley No. 488-08 que establece un R\u00e9gimen Regulatorio para el Desarrollo y Competitividad de las MIPYMES, es decir, que posean un n\u00famero de trabajadores mayor a 150 y ventas brutas anual que superen los RD$202,000,001.00. Estos par\u00e1metros se indexar\u00e1n anualmente, conforme se establece\nen la referida Ley",
+        "risk": "TBML (Lavado de Dinero a traves del comercio)"
+    },
+    "142": {
+        "codigo": "142",
+        "type": "Corporativo Exportadores",
+        "definition": "Se consideran como Corporativas todas aquellas grandes empresas y/o grupos econ\u00f3micos, que posean empleados y ventas brutas superiores a los establecidos para la Mediana Empresa, conforme la Ley No. 187-\n17 de fecha 28 de julio de 2017, que modifica la Ley No. 488-08 que establece un R\u00e9gimen Regulatorio para el Desarrollo y Competitividad de las MIPYMES, es decir, que posean un n\u00famero de trabajadores mayor a 150 y ventas brutas anual que superen los RD$202,000,001.00. Estos par\u00e1metros se indexar\u00e1n anualmente, conforme se establece\nen la referida Ley",
+        "risk": "Falsificacion y Pirateria"
+    },
+    "143": {
+        "codigo": "143",
+        "type": "Corporativo Otros Generadores de Divisas",
+        "definition": "Se consideran como Corporativas todas aquellas grandes empresas y/o grupos econ\u00f3micos, que posean empleados y ventas brutas superiores a los establecidos para la Mediana Empresa, conforme la Ley No. 187-\n17 de fecha 28 de julio de 2017, que modifica la Ley No. 488-08 que establece un R\u00e9gimen Regulatorio para el Desarrollo y Competitividad de las MIPYMES, es decir, que posean un n\u00famero de trabajadores mayor a 150 y ventas brutas anual que superen los RD$202,000,001.00. Estos par\u00e1metros se indexar\u00e1n anualmente, conforme se establece\nen la referida Ley",
+        "risk": "Delito Tributario"
+    },
+    "151": {
+        "codigo": "151",
+        "type": "Corporativo Importadores",
+        "definition": "Se consideran como Corporativas todas aquellas grandes empresas y/o grupos econ\u00f3micos, que posean empleados y ventas brutas superiores a los establecidos para la Mediana Empresa, conforme la Ley No. 187-\n17 de fecha 28 de julio de 2017, que modifica la Ley No. 488-08 que establece un R\u00e9gimen Regulatorio para el Desarrollo y Competitividad de las MIPYMES, es decir, que posean un n\u00famero de trabajadores mayor a 150 y ventas brutas anual que superen los RD$202,000,001.00. Estos par\u00e1metros se indexar\u00e1n anualmente, conforme se establece\nen la referida Ley",
+        "risk": "Contrabando"
+    },
+    "171": {
+        "codigo": "171",
+        "type": "Otros Clientes Corporativos (No Califiquen en ninguno de los anteriores)",
+        "definition": "Se consideran como Corporativas todas aquellas grandes empresas y/o grupos econ\u00f3micos, que posean empleados y ventas brutas superiores a los establecidos para la Mediana Empresa, conforme la Ley No. 187-\n17 de fecha 28 de julio de 2017, que modifica la Ley No. 488-08 que establece un R\u00e9gimen Regulatorio para el Desarrollo y Competitividad de las MIPYMES, es decir, que posean un n\u00famero de trabajadores mayor a 150 y ventas brutas anual que superen los RD$202,000,001.00. Estos par\u00e1metros se indexar\u00e1n anualmente, conforme se establece\nen la referida Ley",
+        "risk": "Delito Tributario"
+    },
+    "241": {
+        "codigo": "241",
+        "type": "Mediana Empresa Zona Francas",
+        "definition": "Se considera Mediana Empresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de 51 a 150 trabajadores y ventas brutas anual de hasta DOP 202,000,000.00 (doscientos dos millones de pesos). Indexado anualmente",
+        "risk": "TBML (Lavado de Dinero a traves del comercio)"
+    },
+    "242": {
+        "codigo": "242",
+        "type": "Mediana Empresa Exportadores",
+        "definition": "Se considera Mediana Empresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de 51 a 150 trabajadores y ventas brutas anual de hasta DOP 202,000,000.00 (doscientos dos millones de pesos). Indexado anualmente",
+        "risk": "Falsificacion y Pirateria"
+    },
+    "243": {
+        "codigo": "243",
+        "type": "Mediana Empresa Otros Generadores de Divisas",
+        "definition": "Se considera Mediana Empresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de 51 a 150 trabajadores y ventas brutas anual de hasta DOP 202,000,000.00 (doscientos dos millones de pesos). Indexado anualmente",
+        "risk": "Delito Tributario"
+    },
+    "251": {
+        "codigo": "251",
+        "type": "Mediana Empresa Importadores",
+        "definition": "Se considera Mediana Empresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de 51 a 150 trabajadores y ventas brutas anual de hasta DOP 202,000,000.00 (doscientos dos millones de pesos). Indexado anualmente",
+        "risk": "Contrabando"
+    },
+    "271": {
+        "codigo": "271",
+        "type": "Otros Clientes Mediana Empresa (No califiquen en ninguno de los anteriores)",
+        "definition": "Se considera Mediana Empresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de 51 a 150 trabajadores y ventas brutas anual de hasta DOP 202,000,000.00 (doscientos dos millones de pesos). Indexado anualmente",
+        "risk": "Delito Tributario"
+    },
+    "341": {
+        "codigo": "341",
+        "type": "Peque\u00f1a Empresa Zona Francas",
+        "definition": "Se considera Peque\u00f1a Empresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de 11 a 50 trabajadores y ventas brutas anual de hasta DOP 54,000,000.00 (cincuenta y cuatro millones de pesos). Indexado anualmente por inflaci\u00f3n.(Excluye Sector P\u00fablico e",
+        "risk": "TBML (Lavado de Dinero a traves del comercio)"
+    },
+    "342": {
+        "codigo": "342",
+        "type": "Peque\u00f1a Empresa Exportadores",
+        "definition": "Se considera Peque\u00f1a Empresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de 11 a 50 trabajadores y ventas brutas anual de hasta DOP 54,000,000.00 (cincuenta y cuatro millones de pesos). Indexado anualmente por inflaci\u00f3n.(Excluye Sector P\u00fablico e",
+        "risk": "Falsificacion y Pirateria"
+    },
+    "343": {
+        "codigo": "343",
+        "type": "Peque\u00f1a Empresa Otros Generadores de Divisas",
+        "definition": "Se considera Peque\u00f1a Empresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de 11 a 50 trabajadores y ventas brutas anual de hasta DOP 54,000,000.00 (cincuenta y cuatro millones de pesos). Indexado anualmente por inflaci\u00f3n.(Excluye Sector P\u00fablico e",
+        "risk": "Narcotrafico"
+    },
+    "351": {
+        "codigo": "351",
+        "type": "Peque\u00f1a Empresa Importadores",
+        "definition": null,
+        "risk": "Contrabando"
+    },
+    "371": {
+        "codigo": "371",
+        "type": "Otros Clientes Peque\u00f1a Empresa (No califiquen en ninguno de los anteriores)",
+        "definition": "Se considera Peque\u00f1a Empresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de 11 a 50 trabajadores y ventas brutas anual de hasta DOP 54,000,000.00 (cincuenta y cuatro millones de pesos). Indexado anualmente por inflaci\u00f3n.(Excluye Sector P\u00fablico e",
+        "risk": "Negocio Pantalla"
+    },
+    "401": {
+        "codigo": "401",
+        "type": "Microempresa o Microempresario Constituido en Sociedad (Persona F\u00edsica o Jur\u00eddica)\u201d",
+        "definition": "Se considera Microempresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de hasta 10 trabajadores y ventas brutas anual de hasta DOP 8,000,000.00 (ocho millones de pesos). Indexado anualmente  por  inflaci\u00f3n.(Excluye Sector\nP\u00fablico e Instituciones Sin Fines de Lucro)",
+        "risk": "Negocio Pantalla"
+    },
+    "402": {
+        "codigo": "402",
+        "type": "Microempresario No Constituido en Sociedad (Patr\u00f3n con dos o m\u00e1s empleados)",
+        "definition": "Se considera Microempresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de hasta 10 trabajadores y ventas brutas anual de hasta DOP 8,000,000.00 (ocho millones de pesos). Indexado anualmente  por  inflaci\u00f3n.(Excluye Sector\nP\u00fablico e Instituciones Sin Fines de Lucro)",
+        "risk": "Delito Tributario"
+    },
+    "403": {
+        "codigo": "403",
+        "type": "Trabajador Cuenta Propia Profesional (M\u00e9dicos, Abogados, Ingenieros, Arquitectos, Contadores, Consultores, Etc.)",
+        "definition": "Se considera Microempresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de hasta 10 trabajadores y ventas brutas anual de hasta DOP 8,000,000.00 (ocho millones de pesos). Indexado anualmente  por  inflaci\u00f3n.(Excluye Sector\nP\u00fablico e Instituciones Sin Fines de Lucro)",
+        "risk": "Testaferrato"
+    },
+    "404": {
+        "codigo": "404",
+        "type": "Trabajador Cuenta Propia No Profesional (T\u00e9cnicos, Vendedores, Etc.)",
+        "definition": "Se considera Microempresa toda aquella que no pertenezca a un grupo econ\u00f3mico corporativo y que cumpla con la definici\u00f3n establecida en la Ley No. 187-17: Unidad de explotaci\u00f3n econ\u00f3mica, realizada por persona natural o jur\u00eddica, que tenga un n\u00famero de hasta 10 trabajadores y ventas brutas anual de hasta DOP 8,000,000.00 (ocho millones de pesos). Indexado anualmente  por  inflaci\u00f3n.(Excluye Sector\nP\u00fablico e Instituciones Sin Fines de Lucro)",
+        "risk": "Delito Tributario"
+    },
+    "501": {
+        "codigo": "501",
+        "type": "Empresario PYME / Patr\u00f3n de PYME",
+        "definition": "Persona f\u00edsica titular de una empresa, PYME, individualmente que este reciba un salario fijo de la misma o dividendos por acciones.",
+        "risk": "Delito Tributario"
+    },
+    "502": {
+        "codigo": "502",
+        "type": "Empresario Corporativo / Patr\u00f3n Empresas o Grupo Corporativo",
+        "definition": "Persona f\u00edsica titular de una empresa Corporativa, individualmente que este reciba un salario fijo de la misma o dividendos por acciones.",
+        "risk": "Delito Tributario"
+    },
+    "511": {
+        "codigo": "511",
+        "type": "Asalariado Privado",
+        "definition": "Persona f\u00edsica que percibe sueldo de una Empresa Privada, como principal fuente de ingresos. Incluye jubilados.",
+        "risk": "Testaferrato"
+    },
+    "512": {
+        "codigo": "512",
+        "type": "Asalariado P\u00fablico",
+        "definition": "Persona f\u00edsica que percibe un sueldo de una Empresa P\u00fablica, como principal fuente de ingresos. Incluye jubilados.",
+        "risk": "Testaferrato"
+    },
+    "521": {
+        "codigo": "521",
+        "type": "Recibe Ingresos Familiares",
+        "definition": "Persona f\u00edsica que recibe fondos de familiares, como principal fuente de ingresos. Excluye remesas.",
+        "risk": "Testaferrato"
+    },
+    "522": {
+        "codigo": "522",
+        "type": "Recibe Remesas",
+        "definition": "Persona f\u00edsica que reciben dinero del exterior del pa\u00eds como su principal fuente de ingresos.",
+        "risk": "Financiamiento del Terrorismo"
+    },
+    "531": {
+        "codigo": "531",
+        "type": "Recibe Rentas",
+        "definition": "Aquellas personas que su principal fuente de ingresos consiste en rentas de inversiones, alquileres u otras fuentes similares que no ameriten un desempe\u00f1o laboral.",
+        "risk": "Actividad de Fachada"
+    },
+    "600": {
+        "codigo": "600",
+        "type": "Desocupado",
+        "definition": "Personas desempleadas, que no califiquen en ninguna de las categor\u00edas anteriores. S\u00f3lo aplica para Captaciones.",
+        "risk": "Testaferrato"
+    },
+    "701": {
+        "codigo": "701",
+        "type": "Gobierno Central",
+        "definition": "Instituciones\tdel\tSector\tP\u00fablico\tNo Financiero",
+        "risk": "Corrupcion"
+    },
+    "702": {
+        "codigo": "702",
+        "type": "Instituciones P\u00fablicas Descentralizadas o Aut\u00f3nomas",
+        "definition": "Instituciones\tdel\tSector\tP\u00fablico\tNo Financiero",
+        "risk": "Corrupcion"
+    },
+    "703": {
+        "codigo": "703",
+        "type": "Instituciones de Seguridad Social",
+        "definition": "Instituciones\tdel\tSector\tP\u00fablico\tNo Financiero",
+        "risk": "Corrupcion"
+    },
+    "704": {
+        "codigo": "704",
+        "type": "Gobiernos Locales",
+        "definition": "Instituciones\tdel\tSector\tP\u00fablico\tNo Financiero",
+        "risk": "Corrupcion"
+    },
+    "705": {
+        "codigo": "705",
+        "type": "Empresas P\u00fablicas no Financieras",
+        "definition": "Instituciones\tdel\tSector\tP\u00fablico\tNo Financiero",
+        "risk": "Corrupcion"
+    },
+    "706": {
+        "codigo": "706",
+        "type": "Instituciones P\u00fablicas Financieras Monetarias",
+        "definition": "Instituciones del Sector P\u00fablico Financiero",
+        "risk": "Manipulacion de Mercado"
+    },
+    "707": {
+        "codigo": "707",
+        "type": "Instituciones P\u00fablicas Financieras no Monetarias",
+        "definition": "Instituciones del Sector P\u00fablico Financiero",
+        "risk": "Corrupcion"
+    },
+    "801": {
+        "codigo": "801",
+        "type": "Int.s/f/lucro Cultura y Recreaci\u00f3n",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "802": {
+        "codigo": "802",
+        "type": "Int.s/f/lucro Ense\u00f1anza e Investigaci\u00f3n",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "803": {
+        "codigo": "803",
+        "type": "Int.s/f/lucro Hospitales y Rehabilitaci\u00f3n",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "804": {
+        "codigo": "804",
+        "type": "Int.s/f/lucro Servicios Sociales",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "805": {
+        "codigo": "805",
+        "type": "Int.s/f/lucro Medio Ambiente",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "806": {
+        "codigo": "806",
+        "type": "Int.s/f/lucro Desarrollo y Vivienda",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "807": {
+        "codigo": "807",
+        "type": "Int.s/f/lucro Derecho, Promoci\u00f3n y Pol\u00edtica",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "808": {
+        "codigo": "808",
+        "type": "Int.s/f/lucro Intermediaci\u00f3n Filantr\u00f3pica y Promoci\u00f3n del Voluntariado",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "809": {
+        "codigo": "809",
+        "type": "Int.s/f/lucro Internacional",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "810": {
+        "codigo": "810",
+        "type": "Int.s/f/lucro Religi\u00f3n",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "811": {
+        "codigo": "811",
+        "type": "Int.s/f/lucro Asociaciones Empresariales y Profesionales, Sindicatos",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "812": {
+        "codigo": "812",
+        "type": "Int.s/f/lucro no contempladas anteriormente",
+        "definition": "Instituciones Sin Fines de Lucro",
+        "risk": "Actividad de Fachada"
+    },
+    "901": {
+        "codigo": "901",
+        "type": "Fideicomiso de Planificaci\u00f3n Sucesoral.",
+        "definition": "Fideicomisos",
+        "risk": "Delito Tributario"
+    },
+    "902": {
+        "codigo": "902",
+        "type": "Fideicomiso Cultural, Filantr\u00f3pico y Educativo.",
+        "definition": "Fideicomisos",
+        "risk": "Actividad de Fachada"
+    },
+    "903": {
+        "codigo": "903",
+        "type": "Fideicomiso de Inversi\u00f3n.",
+        "definition": "Fideicomisos",
+        "risk": "Identificacion Beneficiario Final"
+    },
+    "904": {
+        "codigo": "904",
+        "type": "Fideicomiso de Oferta P\u00fablica de Valores y Productos",
+        "definition": "Fideicomisos",
+        "risk": "Encubrimiento Beneficiario Final"
+    },
+    "905": {
+        "codigo": "905",
+        "type": "Fideicomiso en Garant\u00eda.",
+        "definition": "Fideicomisos",
+        "risk": "Encubrimiento Beneficiario Final"
+    },
+    "906": {
+        "codigo": "906",
+        "type": "Fideicomiso de Inversi\u00f3n Inmobiliaria y Desarrollo Inmobiliario",
+        "definition": "Fideicomisos",
+        "risk": "Encubrimiento Beneficiario Final"
+    },
+    "907": {
+        "codigo": "907",
+        "type": "Fideicomiso P\u00fablico",
+        "definition": "Fideicomisos",
+        "risk": "Encubrimiento Beneficiario Final"
+    }
+}

@@ -1,0 +1,1046 @@
+{
+    "AD": {
+        "codigo": "AD",
+        "country": "ANDORRA"
+    },
+    "AE": {
+        "codigo": "AE",
+        "country": "EMIRATOS \u00c1RABES UNIDOS"
+    },
+    "AF": {
+        "codigo": "AF",
+        "country": "AFGANIST\u00c1N"
+    },
+    "AG": {
+        "codigo": "AG",
+        "country": "ANTIGUA Y BARBUDA [ANTERIORMENTE ANTIGUA]"
+    },
+    "AI": {
+        "codigo": "AI",
+        "country": "SAINT KITTS-NEVIS-ANGUILA [ANGUILA AHORA SEPARADA]"
+    },
+    "AL": {
+        "codigo": "AL",
+        "country": "ALBANIA"
+    },
+    "AM": {
+        "codigo": "AM",
+        "country": "ARMENIA"
+    },
+    "AN": {
+        "codigo": "AN",
+        "country": "ANTILLAS HOLANDESAS"
+    },
+    "AO": {
+        "codigo": "AO",
+        "country": "ANGOLA"
+    },
+    "AQ": {
+        "codigo": "AQ",
+        "country": "ANT\u00c1RTICA"
+    },
+    "AR": {
+        "codigo": "AR",
+        "country": "ARGENTINA"
+    },
+    "AS": {
+        "codigo": "AS",
+        "country": "SAMOA/ISLAS SAMOA [POSESI\u00d3N TERRITORIAL US]"
+    },
+    "AT": {
+        "codigo": "AT",
+        "country": "AUSTRIA"
+    },
+    "AU": {
+        "codigo": "AU",
+        "country": "AUSTRALIA"
+    },
+    "AW": {
+        "codigo": "AW",
+        "country": "ARUBA [AHORA INDEPENDIENTE DE ANTILLAS HOLANDESAS]"
+    },
+    "AX": {
+        "codigo": "AX",
+        "country": "ALAND"
+    },
+    "AZ": {
+        "codigo": "AZ",
+        "country": "AZERBAIJAN"
+    },
+    "BA": {
+        "codigo": "BA",
+        "country": "BOSNIA Y HERZEGOVINA"
+    },
+    "BB": {
+        "codigo": "BB",
+        "country": "BARBADOS"
+    },
+    "BD": {
+        "codigo": "BD",
+        "country": "BANGLADESH"
+    },
+    "BE": {
+        "codigo": "BE",
+        "country": "B\u00c9LGICA"
+    },
+    "BF": {
+        "codigo": "BF",
+        "country": "BURKINA FASO [ANTERIORMENTE ALTO VOLTA]"
+    },
+    "BG": {
+        "codigo": "BG",
+        "country": "BULGARIA"
+    },
+    "BH": {
+        "codigo": "BH",
+        "country": "BAHREN"
+    },
+    "BI": {
+        "codigo": "BI",
+        "country": "BURUNDI"
+    },
+    "BJ": {
+        "codigo": "BJ",
+        "country": "BENIN [ANTERIORMENTE DAHOMEY]"
+    },
+    "BL": {
+        "codigo": "BL",
+        "country": "Saint Barth\u00dalemy"
+    },
+    "BM": {
+        "codigo": "BM",
+        "country": "BERMUDA"
+    },
+    "BN": {
+        "codigo": "BN",
+        "country": "BRUNEI DARUSSALAM"
+    },
+    "BO": {
+        "codigo": "BO",
+        "country": "BOLIVIA"
+    },
+    "BR": {
+        "codigo": "BR",
+        "country": "BRASIL"
+    },
+    "BS": {
+        "codigo": "BS",
+        "country": "BAHAMAS/LAS"
+    },
+    "BT": {
+        "codigo": "BT",
+        "country": "BUT\u00c1N"
+    },
+    "BU": {
+        "codigo": "BU",
+        "country": "BURMA (CAMBIO DE NOMBRE MYANMAR (MM))"
+    },
+    "BV": {
+        "codigo": "BV",
+        "country": "BOUVET/ISLA [TERRITORIO NORUEGO]"
+    },
+    "BW": {
+        "codigo": "BW",
+        "country": "BOTSWANA"
+    },
+    "BV                          ": {
+        "codigo": "BV                          ",
+        "country": "BOUVET/ISLA [TERRITORIO NORUEGO]    "
+    },
+    "BW                                 ": {
+        "codigo": "BW                                 ",
+        "country": "BOTSWANA        "
+    },
+    "BY": {
+        "codigo": "BY",
+        "country": "BIELORRUSIA"
+    },
+    "BZ": {
+        "codigo": "BZ",
+        "country": "BELICE [ANTERIORMENTE HONDURAS BRIT\u00c1NICA]"
+    },
+    "CA": {
+        "codigo": "CA",
+        "country": "CANAD\u00c1"
+    },
+    "CC": {
+        "codigo": "CC",
+        "country": "COCOS/ISLAS [DEPENDENCIA AUSTRALIANA]"
+    },
+    "CD": {
+        "codigo": "CD",
+        "country": "REPUBLICA DEMOCR\u00c1TICA DEL CONGO"
+    },
+    "CF": {
+        "codigo": "CF",
+        "country": "\u00c1FRICA CENTRAL/REPUBLICA DE"
+    },
+    "CG": {
+        "codigo": "CG",
+        "country": "CONGO/REPUBLICA DEL  BRAZAVILLE]"
+    },
+    "CH": {
+        "codigo": "CH",
+        "country": "SUIZA"
+    },
+    "CI": {
+        "codigo": "CI",
+        "country": "COSTA DE MARFIL"
+    },
+    "CK": {
+        "codigo": "CK",
+        "country": "COOK/ISLAS DE"
+    },
+    "CL": {
+        "codigo": "CL",
+        "country": "CHILE"
+    },
+    "CM": {
+        "codigo": "CM",
+        "country": "CAMER\u00daN"
+    },
+    "CN": {
+        "codigo": "CN",
+        "country": "CHINA/REPUBLICA POPULAR DE"
+    },
+    "CO": {
+        "codigo": "CO",
+        "country": "COLOMBIA"
+    },
+    "CR": {
+        "codigo": "CR",
+        "country": "COSTA RICA"
+    },
+    "CS": {
+        "codigo": "CS",
+        "country": "CHECOSLOVAQUIA"
+    },
+    "CU": {
+        "codigo": "CU",
+        "country": "CUBA"
+    },
+    "CV": {
+        "codigo": "CV",
+        "country": "CABO VERDE/ISLAS DE"
+    },
+    "CX": {
+        "codigo": "CX",
+        "country": "PASCUA/ISLA"
+    },
+    "CY": {
+        "codigo": "CY",
+        "country": "CHIPRE"
+    },
+    "CZ": {
+        "codigo": "CZ",
+        "country": "CURAZAO"
+    },
+    "DD": {
+        "codigo": "DD",
+        "country": "ALEMANIA/REPUBLICA DEMOCR\u00c1TICA "
+    },
+    "DE ": {
+        "codigo": "DE ",
+        "country": "ALEMANIA/REPUBLICA FEDERAL"
+    },
+    "DJ": {
+        "codigo": "DJ",
+        "country": "DJIBUTI"
+    },
+    "DK": {
+        "codigo": "DK",
+        "country": "DINAMARCA"
+    },
+    "DM": {
+        "codigo": "DM",
+        "country": "DOMINICA/ISLA"
+    },
+    "DO": {
+        "codigo": "DO",
+        "country": "REPUBLICA DOMINICANA"
+    },
+    "DZ": {
+        "codigo": "DZ",
+        "country": "ARGELIA"
+    },
+    "EC": {
+        "codigo": "EC",
+        "country": "ECUADOR"
+    },
+    "EE": {
+        "codigo": "EE",
+        "country": "ESTONIA"
+    },
+    "EG": {
+        "codigo": "EG",
+        "country": "REPUBLICA \u00c1RABE UNIDA [EGIPTO]"
+    },
+    "EH": {
+        "codigo": "EH",
+        "country": "SAHARA OCCIDENTAL [ANTIGUO SAHARA ESPA\u00d1OL]"
+    },
+    "ER": {
+        "codigo": "ER",
+        "country": "ERITREA"
+    },
+    "ES": {
+        "codigo": "ES",
+        "country": "ESPA\u00d1A"
+    },
+    "ET": {
+        "codigo": "ET",
+        "country": "ETIOPIA"
+    },
+    "FI": {
+        "codigo": "FI",
+        "country": "FINLANDIA"
+    },
+    "FJ": {
+        "codigo": "FJ",
+        "country": "FIDJI O VITI"
+    },
+    "FK": {
+        "codigo": "FK",
+        "country": "MALVINAS/ISLAS"
+    },
+    "FM": {
+        "codigo": "FM",
+        "country": "MICRONESIA/ESTADOS FEDERADOS DE"
+    },
+    "FO": {
+        "codigo": "FO",
+        "country": "FEROE/ISLAS"
+    },
+    "FR": {
+        "codigo": "FR",
+        "country": "FRANCIA"
+    },
+    "GA": {
+        "codigo": "GA",
+        "country": "GAB\u00d3N"
+    },
+    "GB": {
+        "codigo": "GB",
+        "country": "GRAN BRETA\u00d1A"
+    },
+    "GD": {
+        "codigo": "GD",
+        "country": "GRANADA"
+    },
+    "GE": {
+        "codigo": "GE",
+        "country": "GEORGIA"
+    },
+    "GF": {
+        "codigo": "GF",
+        "country": "GUAYANA FRANCESA"
+    },
+    "GG": {
+        "codigo": "GG",
+        "country": "GUERNSEY"
+    },
+    "GH": {
+        "codigo": "GH",
+        "country": "GHANA [ANTIGUA COSTA DE ORO]"
+    },
+    "GI": {
+        "codigo": "GI",
+        "country": "GIBRALTAR"
+    },
+    "GL": {
+        "codigo": "GL",
+        "country": "GROENLANDIA"
+    },
+    "GM": {
+        "codigo": "GM",
+        "country": "GAMBIA"
+    },
+    "GN": {
+        "codigo": "GN",
+        "country": "GUINEA"
+    },
+    "GP": {
+        "codigo": "GP",
+        "country": "GUADALUPE"
+    },
+    "GQ": {
+        "codigo": "GQ",
+        "country": "GUINEA ECUATORIAL"
+    },
+    "GR": {
+        "codigo": "GR",
+        "country": "GRECIA"
+    },
+    "GS": {
+        "codigo": "GS",
+        "country": "South Georgia and the South Sandwich Islands"
+    },
+    "GT": {
+        "codigo": "GT",
+        "country": "GUATEMALA"
+    },
+    "GU": {
+        "codigo": "GU",
+        "country": "GUAM [POSESI\u00d3N TERRITORIAL U.S.]"
+    },
+    "GW": {
+        "codigo": "GW",
+        "country": "GUINEA-BISSAU [ANTERIORMENTE GUINEA PORTUGUESA]"
+    },
+    "GY": {
+        "codigo": "GY",
+        "country": "GUYANA"
+    },
+    "HK": {
+        "codigo": "HK",
+        "country": "HONG-KONG"
+    },
+    "HM": {
+        "codigo": "HM",
+        "country": "HEARD Y MCDONALD/ISLAS"
+    },
+    "HN": {
+        "codigo": "HN",
+        "country": "HONDURAS"
+    },
+    "HR": {
+        "codigo": "HR",
+        "country": "CROACIA"
+    },
+    "HT": {
+        "codigo": "HT",
+        "country": "HAIT\u00cd"
+    },
+    "HU": {
+        "codigo": "HU",
+        "country": "HUNGR\u00cdA"
+    },
+    "ID": {
+        "codigo": "ID",
+        "country": "INDONESIA [AHORA INCLUYE TIMOR PORTUGU\u00c9S]"
+    },
+    "IE": {
+        "codigo": "IE",
+        "country": "IRLANDA [NO INCLUYE IRLANDA DEL NORTE  VER IRLANDA DEL NORTE"
+    },
+    "IL": {
+        "codigo": "IL",
+        "country": "ISRAEL"
+    },
+    "IM": {
+        "codigo": "IM",
+        "country": "ISLE OF MAN"
+    },
+    "IN": {
+        "codigo": "IN",
+        "country": "INDIA"
+    },
+    "IO": {
+        "codigo": "IO",
+        "country": "TERRITORIO BRIT\u00c1NICO DEL OC\u00c9ANO INDICO"
+    },
+    "IQ": {
+        "codigo": "IQ",
+        "country": "IRAQ"
+    },
+    "IR": {
+        "codigo": "IR",
+        "country": "IR\u00c1N"
+    },
+    "IS": {
+        "codigo": "IS",
+        "country": "ISLANDIA"
+    },
+    "IT": {
+        "codigo": "IT",
+        "country": "ITALIA [INCLUYE SICILIA Y SANDINIA]"
+    },
+    "JE": {
+        "codigo": "JE",
+        "country": "JERSEY"
+    },
+    "JM": {
+        "codigo": "JM",
+        "country": "JAMAICA"
+    },
+    "JO": {
+        "codigo": "JO",
+        "country": "JORDANIA"
+    },
+    "JP": {
+        "codigo": "JP",
+        "country": "JAP\u00d3N"
+    },
+    "KE": {
+        "codigo": "KE",
+        "country": "KENIA"
+    },
+    "KG": {
+        "codigo": "KG",
+        "country": "KYRGYZSTAN"
+    },
+    "KH": {
+        "codigo": "KH",
+        "country": "CAMBODIA O CAMBOYA"
+    },
+    "KI": {
+        "codigo": "KI",
+        "country": "KIRIBATI"
+    },
+    "KM": {
+        "codigo": "KM",
+        "country": "COMOROS/ISLAS"
+    },
+    "KN": {
+        "codigo": "KN",
+        "country": "SAN CRIST\u00d3BAL [O SAINT KITTS] Y NEVIS/ISLAS"
+    },
+    "KP": {
+        "codigo": "KP",
+        "country": "COREA DEL NORTE"
+    },
+    "KR": {
+        "codigo": "KR",
+        "country": "COREA DEL SUR"
+    },
+    "KW": {
+        "codigo": "KW",
+        "country": "KUWAIT"
+    },
+    "KY": {
+        "codigo": "KY",
+        "country": "CAIM\u00c1N/ISLAS [TERRITORIO BRIT\u00c1NICO]"
+    },
+    "KZ": {
+        "codigo": "KZ",
+        "country": "KAZAJIST\u00c1N"
+    },
+    "LA": {
+        "codigo": "LA",
+        "country": "LAOS/REPUBLICA POPULAR DEMOCR\u00c1TICA"
+    },
+    "LB": {
+        "codigo": "LB",
+        "country": "L\u00cdBANO"
+    },
+    "LC": {
+        "codigo": "LC",
+        "country": "SANTA LUCIA"
+    },
+    "LI": {
+        "codigo": "LI",
+        "country": "LIECHTENSTEIN"
+    },
+    "LK": {
+        "codigo": "LK",
+        "country": "SRI LANKA [ANTERIORMENTE CEILAN]"
+    },
+    "LR": {
+        "codigo": "LR",
+        "country": "LIBERIA"
+    },
+    "LS": {
+        "codigo": "LS",
+        "country": "LESHOTO [ANTIGUA BASUTOLANDIA]"
+    },
+    "LT": {
+        "codigo": "LT",
+        "country": "LITUANIA"
+    },
+    "LU": {
+        "codigo": "LU",
+        "country": "LUXEMBURGO"
+    },
+    "LV": {
+        "codigo": "LV",
+        "country": "LETONIA"
+    },
+    "LY": {
+        "codigo": "LY",
+        "country": "LIBIA"
+    },
+    "MA": {
+        "codigo": "MA",
+        "country": "MARRUECOS"
+    },
+    "MC": {
+        "codigo": "MC",
+        "country": "M\u00d3NACO"
+    },
+    "MD": {
+        "codigo": "MD",
+        "country": "MOLDAVIA, REPUBLICA DE"
+    },
+    "ME": {
+        "codigo": "ME",
+        "country": "MONTENEGRO"
+    },
+    "MF": {
+        "codigo": "MF",
+        "country": "SAN MARTIN (PARTE FRANCESA)"
+    },
+    "MG": {
+        "codigo": "MG",
+        "country": "MADAGASCAR"
+    },
+    "MH": {
+        "codigo": "MH",
+        "country": "MARSHALL/ISLAS"
+    },
+    "MK": {
+        "codigo": "MK",
+        "country": "Macedonia, the former Yugoslav Republic of"
+    },
+    "ML": {
+        "codigo": "ML",
+        "country": "MALI"
+    },
+    "MM": {
+        "codigo": "MM",
+        "country": "MYANMAR"
+    },
+    "MN": {
+        "codigo": "MN",
+        "country": "MONGOLIA"
+    },
+    "MO": {
+        "codigo": "MO",
+        "country": "MACAO"
+    },
+    "MP": {
+        "codigo": "MP",
+        "country": "MARIANAS DEL NORTE/ISLAS"
+    },
+    "MQ": {
+        "codigo": "MQ",
+        "country": "MARTINICA"
+    },
+    "MR": {
+        "codigo": "MR",
+        "country": "MAURITANIA"
+    },
+    "MS": {
+        "codigo": "MS",
+        "country": "MONSERRAT [DEPENDENCIA BRITANICA]"
+    },
+    "MT": {
+        "codigo": "MT",
+        "country": "MALTA"
+    },
+    "MU": {
+        "codigo": "MU",
+        "country": "MAURICIO"
+    },
+    "MV": {
+        "codigo": "MV",
+        "country": "MALDIVAS"
+    },
+    "MW": {
+        "codigo": "MW",
+        "country": "MALAWI"
+    },
+    "MX": {
+        "codigo": "MX",
+        "country": "M\u00c9XICO"
+    },
+    "MY": {
+        "codigo": "MY",
+        "country": "MALASIA"
+    },
+    "MZ": {
+        "codigo": "MZ",
+        "country": "MOZAMBIQUE"
+    },
+    "NA": {
+        "codigo": "NA",
+        "country": "NAMIBIA"
+    },
+    "NC": {
+        "codigo": "NC",
+        "country": "NUEVA CALEDONIA"
+    },
+    "NE": {
+        "codigo": "NE",
+        "country": "N\u00cdGER"
+    },
+    "NF": {
+        "codigo": "NF",
+        "country": "NORFOLK/ISLA"
+    },
+    "NG": {
+        "codigo": "NG",
+        "country": "NIGERIA"
+    },
+    "NI": {
+        "codigo": "NI",
+        "country": "NICARAGUA"
+    },
+    "NL": {
+        "codigo": "NL",
+        "country": "HOLANDA"
+    },
+    "NO": {
+        "codigo": "NO",
+        "country": "NORUEGA"
+    },
+    "NP": {
+        "codigo": "NP",
+        "country": "NEPAL"
+    },
+    "NR": {
+        "codigo": "NR",
+        "country": "NAURU"
+    },
+    "NT": {
+        "codigo": "NT",
+        "country": "ZONA NEUTRAL IRAQ-SAUD\u00cd"
+    },
+    "NU": {
+        "codigo": "NU",
+        "country": "NIUE"
+    },
+    "NZ": {
+        "codigo": "NZ",
+        "country": "NUEVA ZELANDA"
+    },
+    "OM": {
+        "codigo": "OM",
+        "country": "OM\u00c1N"
+    },
+    "PA": {
+        "codigo": "PA",
+        "country": "PANAM\u00c1"
+    },
+    "PE": {
+        "codigo": "PE",
+        "country": "PER\u00da"
+    },
+    "PF": {
+        "codigo": "PF",
+        "country": "POLINESIA FRANCESA"
+    },
+    "PG": {
+        "codigo": "PG",
+        "country": "PAPUA NUEVA GUINEA [ANTERIORMENTE NUEVA GUINEA]"
+    },
+    "PH": {
+        "codigo": "PH",
+        "country": "FILIPINAS"
+    },
+    "PI": {
+        "codigo": "PI",
+        "country": "PARACEL/ISLAS"
+    },
+    "PK": {
+        "codigo": "PK",
+        "country": "PAKIST\u00c1N"
+    },
+    "PL": {
+        "codigo": "PL",
+        "country": "POLONIA"
+    },
+    "PM": {
+        "codigo": "PM",
+        "country": "SAINT PIERRE Y MIQUEL\u00d3N"
+    },
+    "PN": {
+        "codigo": "PN",
+        "country": "PITCAIRN/ISLAS"
+    },
+    "PR": {
+        "codigo": "PR",
+        "country": "PUERTO RICO [TERRITORIO U.S.]"
+    },
+    "PS": {
+        "codigo": "PS",
+        "country": "TERRITORIO PALESTINO OCUPADO"
+    },
+    "PT": {
+        "codigo": "PT",
+        "country": "PORTUGAL"
+    },
+    "PW": {
+        "codigo": "PW",
+        "country": "PALAU/REPUBLICA DE"
+    },
+    "PY": {
+        "codigo": "PY",
+        "country": "PARAGUAY"
+    },
+    "QA": {
+        "codigo": "QA",
+        "country": "QATAR"
+    },
+    "RC": {
+        "codigo": "RC",
+        "country": "REPUBLICA CHECA"
+    },
+    "RE": {
+        "codigo": "RE",
+        "country": "REUNI\u00d3N"
+    },
+    "RO": {
+        "codigo": "RO",
+        "country": "RUMANIA"
+    },
+    "RS": {
+        "codigo": "RS",
+        "country": "SERBIA"
+    },
+    "RU": {
+        "codigo": "RU",
+        "country": "FEDERACI\u00d3N RUSA"
+    },
+    "RW": {
+        "codigo": "RW",
+        "country": "RUANDA"
+    },
+    "SA": {
+        "codigo": "SA",
+        "country": "ARABIA SAUDITA"
+    },
+    "SB": {
+        "codigo": "SB",
+        "country": "ISLAS SALOM\u00d3N [ANTERIORMENTE ISLAS SALOM\u00d3N BRIT\u00c1NICAS]"
+    },
+    "SC": {
+        "codigo": "SC",
+        "country": "SEYCHELLES/ISLAS"
+    },
+    "SD": {
+        "codigo": "SD",
+        "country": "SUDAN"
+    },
+    "SE": {
+        "codigo": "SE",
+        "country": "SUECIA"
+    },
+    "SG": {
+        "codigo": "SG",
+        "country": "SINGAPUR"
+    },
+    "SH": {
+        "codigo": "SH",
+        "country": "SANTA HELENA"
+    },
+    "SI": {
+        "codigo": "SI",
+        "country": "ESLOVENIA"
+    },
+    "SJ": {
+        "codigo": "SJ",
+        "country": "SVALBARD Y JUAN MAYEN/ISLAS"
+    },
+    "SK": {
+        "codigo": "SK",
+        "country": "ESLOVAQUIA"
+    },
+    "SL": {
+        "codigo": "SL",
+        "country": "SIERRA LEONA"
+    },
+    "SM": {
+        "codigo": "SM",
+        "country": "SAN MARINO"
+    },
+    "SN": {
+        "codigo": "SN",
+        "country": "SENEGAL"
+    },
+    "SO": {
+        "codigo": "SO",
+        "country": "Somalia"
+    },
+    "SR": {
+        "codigo": "SR",
+        "country": "SURINAM"
+    },
+    "ST": {
+        "codigo": "ST",
+        "country": "SAO TOME Y PRINCIPE"
+    },
+    "SU": {
+        "codigo": "SU",
+        "country": "UNI\u00d3N DE REPUBLICAS SOCIALISTA SOVI\u00c9TICAS"
+    },
+    "SV": {
+        "codigo": "SV",
+        "country": "EL SALVADOR"
+    },
+    "SY": {
+        "codigo": "SY",
+        "country": "SIRIA/REPUBLICA \u00c1RABE DE"
+    },
+    "SZ": {
+        "codigo": "SZ",
+        "country": "SWAZILAND"
+    },
+    "TC": {
+        "codigo": "TC",
+        "country": "TURCAS Y CAICOS/ISLAS"
+    },
+    "TD": {
+        "codigo": "TD",
+        "country": "CHAD"
+    },
+    "TF": {
+        "codigo": "TF",
+        "country": "TERRITORIOS ANT\u00c1RTICOS FRANCESES"
+    },
+    "TG": {
+        "codigo": "TG",
+        "country": "TOGO"
+    },
+    "TH": {
+        "codigo": "TH",
+        "country": "TAILANDIA"
+    },
+    "TJ": {
+        "codigo": "TJ",
+        "country": "TAJIKISTAN"
+    },
+    "TK": {
+        "codigo": "TK",
+        "country": "TOKELAU"
+    },
+    "TL": {
+        "codigo": "TL",
+        "country": "TIMOR-LESTE"
+    },
+    "TM": {
+        "codigo": "TM",
+        "country": "TURKMENIST\u00c1N"
+    },
+    "TN": {
+        "codigo": "TN",
+        "country": "T\u00daNEZ"
+    },
+    "TO": {
+        "codigo": "TO",
+        "country": "TONGA"
+    },
+    "TP": {
+        "codigo": "TP",
+        "country": "TIMOR [ISLA DE LA SONDA]"
+    },
+    "TR": {
+        "codigo": "TR",
+        "country": "TURQU\u00cdA"
+    },
+    "TT": {
+        "codigo": "TT",
+        "country": "TRINIDAD Y TOBAGO"
+    },
+    "T": {
+        "codigo": "T",
+        "country": "V TUVALU [ANTERIORMENTE ISLAS ELLICE]"
+    },
+    "TW": {
+        "codigo": "TW",
+        "country": "TAIW\u00c1N [REPUBLICA DE CHINA]"
+    },
+    "TZ": {
+        "codigo": "TZ",
+        "country": "TANZANIA/ REPUBLICA UNIDA DE"
+    },
+    "UA": {
+        "codigo": "UA",
+        "country": "UCRANIA"
+    },
+    "UG": {
+        "codigo": "UG",
+        "country": "UGANDA"
+    },
+    "UK": {
+        "codigo": "UK",
+        "country": "INGLATERRA"
+    },
+    "UM": {
+        "codigo": "UM",
+        "country": "UNITED STATES MINOR OUTLYING ISLANDS"
+    },
+    "US": {
+        "codigo": "US",
+        "country": "ESTADOS UNIDOS"
+    },
+    "UY": {
+        "codigo": "UY",
+        "country": "URUGUAY"
+    },
+    "UZ": {
+        "codigo": "UZ",
+        "country": "UZBEKIST\u00c1N"
+    },
+    "VA": {
+        "codigo": "VA",
+        "country": "VATICANO/ESTADO CIUDAD DEL"
+    },
+    "VC": {
+        "codigo": "VC",
+        "country": "SAN VICENTE Y LAS GRANADINAS"
+    },
+    "VE": {
+        "codigo": "VE",
+        "country": "VENEZUELA"
+    },
+    "VG": {
+        "codigo": "VG",
+        "country": "ISLAS V\u00cdRGENES [TERRITORIO BRIT\u00c1NICO]"
+    },
+    "VI": {
+        "codigo": "VI",
+        "country": "ISLAS V\u00cdRGENES [TERRITORIO DE U.S.]"
+    },
+    "VN": {
+        "codigo": "VN",
+        "country": "VIETNAM/SUR Y NORTE"
+    },
+    "VU": {
+        "codigo": "VU",
+        "country": "VANUATU"
+    },
+    "WF": {
+        "codigo": "WF",
+        "country": "WALLIS Y FUTUNA [TERRITORIO FRANC\u00c9S]"
+    },
+    "WS": {
+        "codigo": "WS",
+        "country": "SAMOA/OCCIDENTAL"
+    },
+    "XK": {
+        "codigo": "XK",
+        "country": "KOSOVO"
+    },
+    "YD": {
+        "codigo": "YD",
+        "country": "YEMEN DEL SUR [AHORA REPUBLICA POPULAR DEMOCR\u00c1TICA  CAPITAL"
+    },
+    "YE": {
+        "codigo": "YE",
+        "country": "YEMEN/REPUBLICA \u00c1RABE DEL [CAPITAL SANA]"
+    },
+    "YO": {
+        "codigo": "YO",
+        "country": "MAYOTTE"
+    },
+    "YU": {
+        "codigo": "YU",
+        "country": "YUGOSLAVIA"
+    },
+    "ZA": {
+        "codigo": "ZA",
+        "country": "SUD\u00c1FRICA"
+    },
+    "ZM": {
+        "codigo": "ZM",
+        "country": "ZAMBIA"
+    },
+    "ZR": {
+        "codigo": "ZR",
+        "country": "ZAIRE [ANTERIORMENTE CONGO KINSHASA]"
+    },
+    "ZW": {
+        "codigo": "ZW",
+        "country": "ZIMBABUE (ANTES RODESIA"
+    }
+}

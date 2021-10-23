@@ -1,0 +1,38 @@
+{
+    "EF": {
+        "codigo": "EF",
+        "name": "EFECTIVO"
+    },
+    "CK": {
+        "codigo": "CK",
+        "name": "CHEQUE"
+    },
+    "CV": {
+        "codigo": "CV",
+        "name": "CHEQUE VIAJERO"
+    },
+    "TX": {
+        "codigo": "TX",
+        "name": "TRANSFERENCIA BANCARIA"
+    },
+    "ND": {
+        "codigo": "ND",
+        "name": "NOTA DE D\u00c9BITO"
+    },
+    "NC": {
+        "codigo": "NC",
+        "name": "NOTA DE CR\u00c9DITO"
+    },
+    "TC": {
+        "codigo": "TC",
+        "name": "TARJETA DE CR\u00c9DITO"
+    },
+    "TD": {
+        "codigo": "TD",
+        "name": "TARJETA DE D\u00c9BITO"
+    },
+    "None": {
+        "codigo": "None",
+        "name": null
+    }
+}

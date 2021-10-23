@@ -1,0 +1,42 @@
+{
+    "C": {
+        "codigo": "C",
+        "name": "Cr\u00e9ditos Comerciales a Mayores Deudores"
+    },
+    "D": {
+        "codigo": "D",
+        "name": "Cr\u00e9ditos Comerciales a Medianos Deudores"
+    },
+    "M": {
+        "codigo": "M",
+        "name": "Cr\u00e9ditos Comerciales a Menores Deudores"
+    },
+    "R": {
+        "codigo": "R",
+        "name": "Cr\u00e9ditos Comerciales bajo la modalidad de Microcr\u00e9dito"
+    },
+    "O": {
+        "codigo": "O",
+        "name": "Cr\u00e9ditos de Consumo"
+    },
+    "H": {
+        "codigo": "H",
+        "name": "Cr\u00e9ditos Hipotecarios"
+    },
+    "T": {
+        "codigo": "T",
+        "name": "Cr\u00e9ditos a trav\u00e9s de Tarjetas de Cr\u00e9ditos Personales"
+    },
+    "N": {
+        "codigo": "N",
+        "name": "Contingencias"
+    },
+    "I": {
+        "codigo": "I",
+        "name": "Inversiones"
+    },
+    "None": {
+        "codigo": "None",
+        "name": null
+    }
+}

@@ -1,0 +1,698 @@
+{
+    "AED": {
+        "codigo": "AED",
+        "divisa": "DIRHAM DE LOS EMIRATOS \u00c1RABES UNIDOS"
+    },
+    "AFN": {
+        "codigo": "AFN",
+        "divisa": "AFGANI AFGANO"
+    },
+    "ALL": {
+        "codigo": "ALL",
+        "divisa": "LEK ALBAN\u00c9S"
+    },
+    "AMD": {
+        "codigo": "AMD",
+        "divisa": "DRAM ARMENIO"
+    },
+    "ANG": {
+        "codigo": "ANG",
+        "divisa": "FLOR\u00cdN ANTILLANO NEERLAND\u00c9S"
+    },
+    "AOA": {
+        "codigo": "AOA",
+        "divisa": "KWANZA ANGOLE\u00d1O"
+    },
+    "ARS": {
+        "codigo": "ARS",
+        "divisa": "PESO ARGENTINO"
+    },
+    "AUD": {
+        "codigo": "AUD",
+        "divisa": "D\u00d3LAR AUSTRALIANO"
+    },
+    "AWG": {
+        "codigo": "AWG",
+        "divisa": "FLOR\u00cdN ARUBE\u00d1O"
+    },
+    "AZM": {
+        "codigo": "AZM",
+        "divisa": "MANAT AZERBAIYANO"
+    },
+    "BAM": {
+        "codigo": "BAM",
+        "divisa": "MARCO CONVERTIBLE DE BOSNIA-HERZEGOVINA"
+    },
+    "BBD": {
+        "codigo": "BBD",
+        "divisa": "D\u00d3LAR DE BARBADOS"
+    },
+    "BDT": {
+        "codigo": "BDT",
+        "divisa": "TAKA DE BANGLAD\u00c9S"
+    },
+    "BGN": {
+        "codigo": "BGN",
+        "divisa": "LEV B\u00daLGARO"
+    },
+    "BHD": {
+        "codigo": "BHD",
+        "divisa": "DINAR BAHREIN\u00cd"
+    },
+    "BIF": {
+        "codigo": "BIF",
+        "divisa": "FRANCO BURUND\u00c9S"
+    },
+    "BMD": {
+        "codigo": "BMD",
+        "divisa": "D\u00d3LAR DE BERMUDA BND D\u00d3LAR DE BRUN\u00c9I"
+    },
+    "BOB": {
+        "codigo": "BOB",
+        "divisa": "BOLIVIANO BOV MVDOL BOLIVIANO (C\u00d3DIGO DE FONDOS)"
+    },
+    "BRL": {
+        "codigo": "BRL",
+        "divisa": "REAL BRASILE\u00d1O"
+    },
+    "BSD": {
+        "codigo": "BSD",
+        "divisa": "D\u00d3LAR BAHAME\u00d1O"
+    },
+    "BTN": {
+        "codigo": "BTN",
+        "divisa": "NGULTRUM DE BUT\u00c1N"
+    },
+    "BWP": {
+        "codigo": "BWP",
+        "divisa": "PULA DE BOTSUANA"
+    },
+    "BYR": {
+        "codigo": "BYR",
+        "divisa": "RUBLO BIELORRUSO"
+    },
+    "BZD": {
+        "codigo": "BZD",
+        "divisa": "D\u00d3LAR DE BELICE"
+    },
+    "CAD": {
+        "codigo": "CAD",
+        "divisa": "D\u00d3LAR CANADIENSE"
+    },
+    "CDF": {
+        "codigo": "CDF",
+        "divisa": "FRANCO CONGOLE\u00d1O, O CONGOL\u00c9S"
+    },
+    "CHF": {
+        "codigo": "CHF",
+        "divisa": "FRANCO SUIZO"
+    },
+    "CLF": {
+        "codigo": "CLF",
+        "divisa": "UNIDADES DE FOMENTO CHILENAS (C\u00d3DIGO DE FONDOS)"
+    },
+    "CLP": {
+        "codigo": "CLP",
+        "divisa": "PESO CHILENO"
+    },
+    "CNY": {
+        "codigo": "CNY",
+        "divisa": "YUAN CHINO"
+    },
+    "COP": {
+        "codigo": "COP",
+        "divisa": "PESO COLOMBIANO"
+    },
+    "COU": {
+        "codigo": "COU",
+        "divisa": "UNIDAD DE VALOR REAL COLOMBIANA (A\u00d1ADIDA AL COP)"
+    },
+    "CRC": {
+        "codigo": "CRC",
+        "divisa": "COL\u00d3N COSTARRICENSE"
+    },
+    "CSD": {
+        "codigo": "CSD",
+        "divisa": "DINAR SERBIO (REEMPLAZADO POR RSD EL 25 DE OCTUBRE DE 2006)"
+    },
+    "CUP": {
+        "codigo": "CUP",
+        "divisa": "PESO CUBANO"
+    },
+    "CUC": {
+        "codigo": "CUC",
+        "divisa": "PESO CUBANO CONVERTIBLE"
+    },
+    "CVE": {
+        "codigo": "CVE",
+        "divisa": "ESCUDO CABOVERDIANO"
+    },
+    "CZK": {
+        "codigo": "CZK",
+        "divisa": "KORUNA CHECA"
+    },
+    "DJF": {
+        "codigo": "DJF",
+        "divisa": "FRANCO YIBUTIANO"
+    },
+    "DKK": {
+        "codigo": "DKK",
+        "divisa": "CORONA DANESA"
+    },
+    "DOP": {
+        "codigo": "DOP",
+        "divisa": "PESO DOMINICANO"
+    },
+    "DZD": {
+        "codigo": "DZD",
+        "divisa": "DINAR ALGERINO"
+    },
+    "EGP": {
+        "codigo": "EGP",
+        "divisa": "LIBRA EGIPCIA"
+    },
+    "ERN": {
+        "codigo": "ERN",
+        "divisa": "NAKFA ERITREO"
+    },
+    "ETB": {
+        "codigo": "ETB",
+        "divisa": "BIRR ET\u00cdOPE"
+    },
+    "EUR": {
+        "codigo": "EUR",
+        "divisa": "EURO"
+    },
+    "FJD": {
+        "codigo": "FJD",
+        "divisa": "D\u00d3LAR FIYIANO"
+    },
+    "FKP": {
+        "codigo": "FKP",
+        "divisa": "LIBRA MALVINENSE"
+    },
+    "GBP": {
+        "codigo": "GBP",
+        "divisa": "LIBRA ESTERLINA (LIBRA DE GRAN BRETA\u00d1A)"
+    },
+    "GEL": {
+        "codigo": "GEL",
+        "divisa": "LARI GEORGIANO"
+    },
+    "GHS": {
+        "codigo": "GHS",
+        "divisa": "CEDI GHAN\u00c9S"
+    },
+    "GIP": {
+        "codigo": "GIP",
+        "divisa": "LIBRA DE GIBRALTAR"
+    },
+    "GMD": {
+        "codigo": "GMD",
+        "divisa": "DALASI GAMBIANO"
+    },
+    "GNF": {
+        "codigo": "GNF",
+        "divisa": "FRANCO GUINEANO"
+    },
+    "GTQ": {
+        "codigo": "GTQ",
+        "divisa": "QUETZAL GUATEMALTECO"
+    },
+    "GYD": {
+        "codigo": "GYD",
+        "divisa": "D\u00d3LAR GUYAN\u00c9S"
+    },
+    "HKD": {
+        "codigo": "HKD",
+        "divisa": "D\u00d3LAR DE HONG KONG"
+    },
+    "HNL": {
+        "codigo": "HNL",
+        "divisa": "LEMPIRA HONDURE\u00d1O"
+    },
+    "HRK": {
+        "codigo": "HRK",
+        "divisa": "KUNA CROATA"
+    },
+    "HTG": {
+        "codigo": "HTG",
+        "divisa": "GOURDE HAITIANO"
+    },
+    "HUF": {
+        "codigo": "HUF",
+        "divisa": "FORINT H\u00daNGARO"
+    },
+    "IDR": {
+        "codigo": "IDR",
+        "divisa": "RUPIAH INDONESIA"
+    },
+    "ILS": {
+        "codigo": "ILS",
+        "divisa": "NUEVO SH\u00c9QUEL ISRAEL\u00cd"
+    },
+    "INR": {
+        "codigo": "INR",
+        "divisa": "RUPIA INDIA"
+    },
+    "IQD": {
+        "codigo": "IQD",
+        "divisa": "DINAR IRAQU\u00cd"
+    },
+    "IRR": {
+        "codigo": "IRR",
+        "divisa": "RIAL IRAN\u00cd"
+    },
+    "ISK": {
+        "codigo": "ISK",
+        "divisa": "KR\u00d3NA ISLANDESA"
+    },
+    "JMD": {
+        "codigo": "JMD",
+        "divisa": "D\u00d3LAR JAMAICANO"
+    },
+    "JOD": {
+        "codigo": "JOD",
+        "divisa": "DINAR JORDANO"
+    },
+    "JPY": {
+        "codigo": "JPY",
+        "divisa": "YEN JAPON\u00c9S"
+    },
+    "KES": {
+        "codigo": "KES",
+        "divisa": "CHEL\u00cdN KENIATA"
+    },
+    "KGS": {
+        "codigo": "KGS",
+        "divisa": "SOM KIRGU\u00cdS (DE KIRGUIST\u00c1N)"
+    },
+    "KHR": {
+        "codigo": "KHR",
+        "divisa": "RIEL CAMBOYANO"
+    },
+    "KMF": {
+        "codigo": "KMF",
+        "divisa": "FRANCO COMORIANO (DE COMORAS)"
+    },
+    "KPW": {
+        "codigo": "KPW",
+        "divisa": "WON NORCOREANO"
+    },
+    "KRW": {
+        "codigo": "KRW",
+        "divisa": "WON SURCOREANO"
+    },
+    "KWD": {
+        "codigo": "KWD",
+        "divisa": "DINAR KUWAIT\u00cd"
+    },
+    "KYD": {
+        "codigo": "KYD",
+        "divisa": "D\u00d3LAR CAIMANO (DE ISLAS CAIM\u00c1N)"
+    },
+    "KZT": {
+        "codigo": "KZT",
+        "divisa": "TENGE KAZAJO"
+    },
+    "LAK": {
+        "codigo": "LAK",
+        "divisa": "KIP LAO"
+    },
+    "LBP": {
+        "codigo": "LBP",
+        "divisa": "LIBRA LIBANESA"
+    },
+    "LKR": {
+        "codigo": "LKR",
+        "divisa": "RUPIA DE SRI LANKA"
+    },
+    "LRD": {
+        "codigo": "LRD",
+        "divisa": "D\u00d3LAR LIBERIANO"
+    },
+    "LSL": {
+        "codigo": "LSL",
+        "divisa": "LOTI LESOTENSE"
+    },
+    "LTL": {
+        "codigo": "LTL",
+        "divisa": "LITAS LITUANO"
+    },
+    "LVL": {
+        "codigo": "LVL",
+        "divisa": "LAT LET\u00d3N"
+    },
+    "LYD": {
+        "codigo": "LYD",
+        "divisa": "DINAR LIBIO"
+    },
+    "MAD": {
+        "codigo": "MAD",
+        "divisa": "DIRHAM MARROQU\u00cd"
+    },
+    "MDL": {
+        "codigo": "MDL",
+        "divisa": "LEU MOLDAVO"
+    },
+    "MGA": {
+        "codigo": "MGA",
+        "divisa": "ARIARY MALGACHE"
+    },
+    "MKD": {
+        "codigo": "MKD",
+        "divisa": "DENAR MACEDONIO"
+    },
+    "MMK": {
+        "codigo": "MMK",
+        "divisa": "KYAT BIRMANO"
+    },
+    "MNT": {
+        "codigo": "MNT",
+        "divisa": "TUGHRIK MONGOL"
+    },
+    "MOP": {
+        "codigo": "MOP",
+        "divisa": "PATACA DE MACAO"
+    },
+    "MRO": {
+        "codigo": "MRO",
+        "divisa": "OUGUIYA MAURITANA"
+    },
+    "MUR": {
+        "codigo": "MUR",
+        "divisa": "RUPIA MAURICIA"
+    },
+    "MVR": {
+        "codigo": "MVR",
+        "divisa": "RUFIYAA MALDIVA"
+    },
+    "MWK": {
+        "codigo": "MWK",
+        "divisa": "KWACHA MALAU\u00cd"
+    },
+    "MXN": {
+        "codigo": "MXN",
+        "divisa": "PESO MEXICANO"
+    },
+    "MXV": {
+        "codigo": "MXV",
+        "divisa": "UNIDAD DE INVERSI\u00d3N (UDI) MEXICANA (C\u00d3DIGO DE FONDOS)"
+    },
+    "MYR": {
+        "codigo": "MYR",
+        "divisa": "RINGGIT MALAYO"
+    },
+    "MZN": {
+        "codigo": "MZN",
+        "divisa": "METICAL MOZAMBIQUE\u00d1O"
+    },
+    "NAD": {
+        "codigo": "NAD",
+        "divisa": "D\u00d3LAR NAMIBIO"
+    },
+    "NGN": {
+        "codigo": "NGN",
+        "divisa": "NAIRA NIGERIANA"
+    },
+    "NIO": {
+        "codigo": "NIO",
+        "divisa": "C\u00d3RDOBA NICARAG\u00dcENSE"
+    },
+    "NOK": {
+        "codigo": "NOK",
+        "divisa": "CORONA NORUEGA"
+    },
+    "NPR": {
+        "codigo": "NPR",
+        "divisa": "RUPIA NEPALESA"
+    },
+    "NZD": {
+        "codigo": "NZD",
+        "divisa": "D\u00d3LAR NEOZELAND\u00c9S"
+    },
+    "OMR": {
+        "codigo": "OMR",
+        "divisa": "RIAL OMAN\u00cd"
+    },
+    "PAB": {
+        "codigo": "PAB",
+        "divisa": "BALBOA PANAME\u00d1A"
+    },
+    "PEN": {
+        "codigo": "PEN",
+        "divisa": "NUEVO SOL PERUANO"
+    },
+    "PGK": {
+        "codigo": "PGK",
+        "divisa": "KINA DE PAP\u00daA NUEVA GUINEA"
+    },
+    "PHP": {
+        "codigo": "PHP",
+        "divisa": "PESO FILIPINO"
+    },
+    "PKR": {
+        "codigo": "PKR",
+        "divisa": "RUPIA PAKISTAN\u00cd"
+    },
+    "PLN": {
+        "codigo": "PLN",
+        "divisa": "ZLOTY POLACO"
+    },
+    "PYG": {
+        "codigo": "PYG",
+        "divisa": "GUARAN\u00cd PARAGUAYO"
+    },
+    "QAR": {
+        "codigo": "QAR",
+        "divisa": "RIAL QATAR\u00cd"
+    },
+    "RON": {
+        "codigo": "RON",
+        "divisa": "LEU RUMANO"
+    },
+    "RUB": {
+        "codigo": "RUB",
+        "divisa": "RUBLO RUSO"
+    },
+    "RWF": {
+        "codigo": "RWF",
+        "divisa": "FRANCO RUAND\u00c9S"
+    },
+    "SAR": {
+        "codigo": "SAR",
+        "divisa": "RIYAL SAUD\u00cd"
+    },
+    "SBD": {
+        "codigo": "SBD",
+        "divisa": "D\u00d3LAR DE LAS ISLAS SALOM\u00d3N"
+    },
+    "SCR": {
+        "codigo": "SCR",
+        "divisa": "RUPIA DE SEYCHELLES"
+    },
+    "SDG": {
+        "codigo": "SDG",
+        "divisa": "DINAR SUDAN\u00c9S"
+    },
+    "SEK": {
+        "codigo": "SEK",
+        "divisa": "CORONA SUECA"
+    },
+    "SGD": {
+        "codigo": "SGD",
+        "divisa": "D\u00d3LAR DE SINGAPUR"
+    },
+    "SHP": {
+        "codigo": "SHP",
+        "divisa": "LIBRA DE SANTA HELENA"
+    },
+    "SLL": {
+        "codigo": "SLL",
+        "divisa": "LEONE DE SIERRA LEONA"
+    },
+    "SOS": {
+        "codigo": "SOS",
+        "divisa": "CHEL\u00cdN SOMAL\u00cd"
+    },
+    "SRD": {
+        "codigo": "SRD",
+        "divisa": "D\u00d3LAR SURINAM\u00c9S"
+    },
+    "STD": {
+        "codigo": "STD",
+        "divisa": "DOBRA DE SANTO TOM\u00c9 Y PR\u00cdNCIPE"
+    },
+    "SYP": {
+        "codigo": "SYP",
+        "divisa": "LIBRA SIRIA"
+    },
+    "SZL": {
+        "codigo": "SZL",
+        "divisa": "LILANGENI SUAZI"
+    },
+    "THB": {
+        "codigo": "THB",
+        "divisa": "BAHT TAILAND\u00c9S"
+    },
+    "TJS": {
+        "codigo": "TJS",
+        "divisa": "SOMONI TAYIK (DE TAYIKIST\u00c1N)"
+    },
+    "TMT": {
+        "codigo": "TMT",
+        "divisa": "MANAT TURCOMANO"
+    },
+    "TND": {
+        "codigo": "TND",
+        "divisa": "DINAR TUNECINO"
+    },
+    "TOP": {
+        "codigo": "TOP",
+        "divisa": "PA'ANGA TONGANO"
+    },
+    "TRY": {
+        "codigo": "TRY",
+        "divisa": "LIRA TURCA"
+    },
+    "TTD": {
+        "codigo": "TTD",
+        "divisa": "D\u00d3LAR DE TRINIDAD Y TOBAGO"
+    },
+    "TWD": {
+        "codigo": "TWD",
+        "divisa": "D\u00d3LAR TAIWAN\u00c9S"
+    },
+    "TZS": {
+        "codigo": "TZS",
+        "divisa": "CHEL\u00cdN TANZANO"
+    },
+    "UAH": {
+        "codigo": "UAH",
+        "divisa": "GRIVNA UCRANIANA"
+    },
+    "UGX": {
+        "codigo": "UGX",
+        "divisa": "CHEL\u00cdN UGAND\u00c9S"
+    },
+    "USD": {
+        "codigo": "USD",
+        "divisa": "D\u00d3LAR ESTADOUNIDENSE"
+    },
+    "USN": {
+        "codigo": "USN",
+        "divisa": "D\u00d3LAR ESTADOUNIDENSE (SIGUIENTE D\u00cdA) (C\u00d3DIGO DE FONDOS)"
+    },
+    "USS": {
+        "codigo": "USS",
+        "divisa": "D\u00d3LAR ESTADOUNIDENSE (MISMO D\u00cdA) (C\u00d3DIGO DE FONDOS)"
+    },
+    "UYU": {
+        "codigo": "UYU",
+        "divisa": "PESO URUGUAYO"
+    },
+    "UZS": {
+        "codigo": "UZS",
+        "divisa": "SOM UZBEKO"
+    },
+    "VEF": {
+        "codigo": "VEF",
+        "divisa": "BOL\u00cdVAR FUERTE VENEZOLANO"
+    },
+    "VND": {
+        "codigo": "VND",
+        "divisa": "DONG VIETNAMITA"
+    },
+    "VUV": {
+        "codigo": "VUV",
+        "divisa": "VATU VANUATENSE"
+    },
+    "WST": {
+        "codigo": "WST",
+        "divisa": "TALA SAMOANA"
+    },
+    "XA": {
+        "codigo": "XA",
+        "divisa": "F FRANCO CFA DE \u00c1FRICA CENTRAL"
+    },
+    "XAG": {
+        "codigo": "XAG",
+        "divisa": "ONZA DE PLATA"
+    },
+    "XAU": {
+        "codigo": "XAU",
+        "divisa": "ONZA DE ORO"
+    },
+    "XBA": {
+        "codigo": "XBA",
+        "divisa": "EUROPEAN COMPOSITE UNIT (EURCO) (UNIDAD DEL MERCADO DE BONOS)"
+    },
+    "XBB": {
+        "codigo": "XBB",
+        "divisa": "EUROPEAN MONETARY UNIT (E.M.U.-6) (UNIDAD DEL MERCADO DE BONOS)"
+    },
+    "XBC": {
+        "codigo": "XBC",
+        "divisa": "EUROPEAN UNIT OF ACCOUNT 9 (E.U.A.-9) (UNIDAD DEL ME RCADO DE BONOS)"
+    },
+    "XBD": {
+        "codigo": "XBD",
+        "divisa": "EUROPEAN UNIT OF ACCOUNT 17 (E.U.A.-17) (UNIDAD DEL MERCADO DE BONOS)"
+    },
+    "XCD": {
+        "codigo": "XCD",
+        "divisa": "D\u00d3LAR DEL CARIBE ORIENTAL"
+    },
+    "XDR": {
+        "codigo": "XDR",
+        "divisa": "DERECHOS ESPECIALES DE GIRO (FMI)"
+    },
+    "XFO": {
+        "codigo": "XFO",
+        "divisa": "FRANCO DE ORO (SPECIAL SETTLEMENT CURRENCY)"
+    },
+    "XFU": {
+        "codigo": "XFU",
+        "divisa": "FRANCO UIC (SPECIAL SETTLEMENT CURRENCY)"
+    },
+    "XOF": {
+        "codigo": "XOF",
+        "divisa": "FRANCO CFA DE \u00c1FRICA OCCIDENTAL"
+    },
+    "XPD": {
+        "codigo": "XPD",
+        "divisa": "ONZA DE PALADIO"
+    },
+    "XPF": {
+        "codigo": "XPF",
+        "divisa": "FRANCO CFP"
+    },
+    "XPT": {
+        "codigo": "XPT",
+        "divisa": "ONZA DE PLATINO"
+    },
+    "XTS": {
+        "codigo": "XTS",
+        "divisa": "RESERVADO PARA PRUEBAS"
+    },
+    "XXX": {
+        "codigo": "XXX",
+        "divisa": "SIN DIVISA"
+    },
+    "YER": {
+        "codigo": "YER",
+        "divisa": "RIAL YEMEN\u00cd (DE YEMEN)"
+    },
+    "ZAR": {
+        "codigo": "ZAR",
+        "divisa": "RAND SUDAFRICANO"
+    },
+    "ZMW": {
+        "codigo": "ZMW",
+        "divisa": "KWACHA ZAMBIANO"
+    },
+    "ZWL": {
+        "codigo": "ZWL",
+        "divisa": "D\u00d3LAR ZIMBABUENSE"
+    }
+}

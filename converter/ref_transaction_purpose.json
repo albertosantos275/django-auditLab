@@ -1,0 +1,82 @@
+{
+    "AL": {
+        "codigo": "AL",
+        "name": "ALIMENTACI\u00d3N"
+    },
+    "VI": {
+        "codigo": "VI",
+        "name": "ALQUILER DE VIVIENDA"
+    },
+    "CV": {
+        "codigo": "CV",
+        "name": "COMPRA Y CONSTRUCCI\u00d3N DE VIVIENDA"
+    },
+    "PM": {
+        "codigo": "PM",
+        "name": "PAGO DE MANTENIMIENTO DE INMUEBLES"
+    },
+    "MH": {
+        "codigo": "MH",
+        "name": "MANTENIMIENTO DEL HOGAR"
+    },
+    "PS": {
+        "codigo": "PS",
+        "name": "PAGO DE SERVICIOS (AGUA, LUZ Y TELECOMUNICACIONES)"
+    },
+    "ME": {
+        "codigo": "ME",
+        "name": "SALUD"
+    },
+    "CO": {
+        "codigo": "CO",
+        "name": "EDUCACI\u00d3N"
+    },
+    "PT": {
+        "codigo": "PT",
+        "name": "PAGO DE TRANSPORTE"
+    },
+    "CC": {
+        "codigo": "CC",
+        "name": "COMPRA DE VEH\u00cdCULO"
+    },
+    "AC": {
+        "codigo": "AC",
+        "name": "ALQUILER DE VEH\u00cdCULOS"
+    },
+    "PD": {
+        "codigo": "PD",
+        "name": "PAGO DE DEUDA"
+    },
+    "CM": {
+        "codigo": "CM",
+        "name": "COMPRA DE MUEBLES Y ELECTRODOM\u00c9STICOS"
+    },
+    "GF": {
+        "codigo": "GF",
+        "name": "GASTOS FUNERARIOS"
+    },
+    "AH": {
+        "codigo": "AH",
+        "name": "AHORRO"
+    },
+    "IN": {
+        "codigo": "IN",
+        "name": "INVERSIONES DE NEGOCIOS"
+    },
+    "VJ": {
+        "codigo": "VJ",
+        "name": "PRENDAS DE VESTIR Y JOYAS"
+    },
+    "RE": {
+        "codigo": "RE",
+        "name": "REGALO"
+    },
+    "DB": {
+        "codigo": "DB",
+        "name": "DONACIONES BEN\u00c9FICAS"
+    },
+    "DO": {
+        "codigo": "DO",
+        "name": "DIVERSI\u00d3N Y OCIO"
+    }
+}

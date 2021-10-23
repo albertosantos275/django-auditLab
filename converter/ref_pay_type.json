@@ -1,0 +1,34 @@
+{
+    "CK": {
+        "codigo": "CK",
+        "name": "CHEQUE"
+    },
+    "EF": {
+        "codigo": "EF",
+        "name": "EFECTIVO"
+    },
+    "DD": {
+        "codigo": "DD",
+        "name": "D\u00c9BITO DIRECTO"
+    },
+    "CD": {
+        "codigo": "CD",
+        "name": "CR\u00c9DITO DIRECTO"
+    },
+    "TD": {
+        "codigo": "TD",
+        "name": "TARJETAS DE D\u00c9BITO"
+    },
+    "TC": {
+        "codigo": "TC",
+        "name": "TARJETAS DE CR\u00c9DITO"
+    },
+    "TP": {
+        "codigo": "TP",
+        "name": "TARJETAS PREPAGADAS"
+    },
+    "PM": {
+        "codigo": "PM",
+        "name": "PAGOS M\u00d3VILES"
+    }
+}

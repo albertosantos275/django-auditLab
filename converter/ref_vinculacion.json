@@ -1,0 +1,42 @@
+{
+    "P1 ": {
+        "codigo": "P1 ",
+        "name": "VINCULACI\u00d3N POR PROPIEDAD DE PERSONA F\u00cdSICA"
+    },
+    "P2 ": {
+        "codigo": "P2 ",
+        "name": "VINCULACI\u00d3N POR PROPIEDAD DE PERSONA JUR\u00cdDICA"
+    },
+    "P3 ": {
+        "codigo": "P3 ",
+        "name": "VINCULACI\u00d3N POR PROPIEDAD A TRAV\u00c9S DE UN GRUPO DE RIESGO"
+    },
+    "PF ": {
+        "codigo": "PF ",
+        "name": "VINCULACI\u00d3N POR PARTICIPACI\u00d3N EN GRUPO FINANCIERO COLIGADO."
+    },
+    "PG ": {
+        "codigo": "PG ",
+        "name": "VINCULACI\u00d3N POR PARTICIPACI\u00d3N EN GRUPO ECON\u00d3MICO COLIGADO."
+    },
+    "G1 ": {
+        "codigo": "G1 ",
+        "name": "VINCULACI\u00d3N POR GESTI\u00d3N (FUNCIONARIO) "
+    },
+    "G2 ": {
+        "codigo": "G2 ",
+        "name": "VINCULACI\u00d3N POR GESTI\u00d3N (EMPLEADO) "
+    },
+    "CA ": {
+        "codigo": "CA ",
+        "name": "VINCULACI\u00d3N POR CONSANGUINIDAD Y AFINIDAD"
+    },
+    "PR ": {
+        "codigo": "PR ",
+        "name": "VINCULACI\u00d3N POR PRESUNCI\u00d3N"
+    },
+    "NI": {
+        "codigo": "NI",
+        "name": "DEUDOR O EMISOR NO VINCULADO  "
+    }
+}

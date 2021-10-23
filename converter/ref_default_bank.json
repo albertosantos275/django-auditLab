@@ -1,0 +1,37 @@
+{
+    "00035843": {
+        "id": "001-1709025-8",
+        "codigo": "00035843",
+        "name": "Jose",
+        "lastname": "De Pool",
+        "ciiu": "511915"
+    },
+    "0000235": {
+        "id": "001-1709025-9",
+        "codigo": "0000235",
+        "name": "Juan",
+        "lastname": "Perez",
+        "ciiu": "50301"
+    },
+    "0000236": {
+        "id": "001-1709025-10",
+        "codigo": "0000236",
+        "name": "Rodrigo",
+        "lastname": "Medina",
+        "ciiu": "11321"
+    },
+    "0005096": {
+        "id": "001-1709025-11",
+        "codigo": "0005096",
+        "name": "Darian",
+        "lastname": "Vargas",
+        "ciiu": "10000"
+    },
+    "0189694": {
+        "id": "001-1709025-12",
+        "codigo": "0189694",
+        "name": "Ludwing",
+        "lastname": "Hernandez",
+        "ciiu": "11000"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "N": {
+        "codigo": "N",
+        "name": "Electronica"
+    },
+    "S": {
+        "codigo": "S",
+        "name": "Efectivo"
+    }
+}

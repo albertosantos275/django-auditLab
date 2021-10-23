@@ -1,0 +1,13 @@
+from home
+
+scp -i aws_2020_ubuntu.pem ./converter/ref_activity_economic.json ubuntu@3.128.201.226:/home/ubuntu/converter
+
+scp -i aws_2020_ubuntu.pem ./converter/main.py ubuntu@3.128.201.226:/home/ubuntu/converter
+
+scp -i aws_2020_ubuntu.pem ./converter/if01.py ubuntu@3.128.201.226:/home/ubuntu/converter
+
+python3 main.py  unmodified/if1.xlsx modified/m_if1.xlsx if01 123456a
+
+
+
+python3 main.py  unmodified/ca01.xlsx modified/ca01_m.xlsx ca01 c123456a

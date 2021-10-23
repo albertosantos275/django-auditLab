@@ -1,0 +1,10 @@
+{
+    "E": {
+        "codigo": "E",
+        "name": "Enviada"
+    },
+    "R": {
+        "codigo": "R",
+        "name": "Recibida"
+    }
+}

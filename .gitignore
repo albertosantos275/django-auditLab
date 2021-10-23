@@ -1,8 +1,6 @@
 .vscode/*
 /env*
 /media*
-/bert_model/model
-/bert_model/training
 *.log
 *.pyc
 *.exe

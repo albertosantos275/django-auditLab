@@ -1,0 +1,118 @@
+{
+    "AC": {
+        "codigo": "AC",
+        "name": "AGENTE DE CAMBIO"
+    },
+    "AAP": {
+        "codigo": "AAP",
+        "name": "ASOCIACI\u00d3N DE AHORROS Y PR\u00c9STAMOS"
+    },
+    "ARB": {
+        "codigo": "ARB",
+        "name": "AUTO COMPRA DE LAS ENTIDADES (ARBITRAJE)"
+    },
+    "ARC": {
+        "codigo": "ARC",
+        "name": "AGENTES DE REMESAS Y CAMBIO"
+    },
+    "AU": {
+        "codigo": "AU",
+        "name": "AUMENTO DE CAPITAL Y/O VENTAS DE ACCIONES DE LAS ENTIDADES FINANCIERAS"
+    },
+    "BA": {
+        "codigo": "BA",
+        "name": "BANCOS DE AHORROS Y CR\u00c9DITOS"
+    },
+    "BC": {
+        "codigo": "BC",
+        "name": "BANCO CENTRAL"
+    },
+    "BM": {
+        "codigo": "BM",
+        "name": "BANCOS M\u00daLTIPLES"
+    },
+    "CF": {
+        "codigo": "CF",
+        "name": "COMISIONES Y TRANSFERENCIAS PAGADAS (REMESAS)"
+    },
+    "CS": {
+        "codigo": "CS",
+        "name": "COMPA\u00d1\u00cdAS DE SEGUROS Y CORREDORES DE SEGUROS"
+    },
+    "DP": {
+        "codigo": "DP",
+        "name": "DESEMBOLSO (PR\u00c9STAMOS)"
+    },
+    "EF": {
+        "codigo": "EF",
+        "name": "OTRAS ENTIDADES FINANCIERAS"
+    },
+    "EB": {
+        "codigo": "EB",
+        "name": "EXPORTACIONES DE BIENES"
+    },
+    "FAB": {
+        "codigo": "FAB",
+        "name": "FIRMAS DE ABOGADOS, BUFETES Y ABOGADOS"
+    },
+    "GOV": {
+        "codigo": "GOV",
+        "name": "GOBIERNO (EMPRESAS P\u00daBLICAS)"
+    },
+    "IE": {
+        "codigo": "IE",
+        "name": "INVERSI\u00d3N EXTRANJERA"
+    },
+    "LA": {
+        "codigo": "LA",
+        "name": "L\u00cdNEAS A\u00c9REAS"
+    },
+    "MPA": {
+        "codigo": "MPA",
+        "name": "MANEJADORES DE PUERTOS Y AEROPUERTOS"
+    },
+    "NAV": {
+        "codigo": "NAV",
+        "name": "NAVIERAS (ESTRIBADORES, REMOLCADORES, AGENTES DE GESTI\u00d3N NAVIERA QUE COMPRAN Y VENDEN US$)"
+    },
+    "OT": {
+        "codigo": "OT",
+        "name": "OTROS"
+    },
+    "PF": {
+        "codigo": "PF",
+        "name": "PERSONA F\u00cdSICA"
+    },
+    "RF": {
+        "codigo": "RF",
+        "name": "REMESAS FAMILIARES"
+    },
+    "SC": {
+        "codigo": "SC",
+        "name": "SECTOR CONSTRUCCI\u00d3N (CONSTRUCTORAS QUE COMPRAN Y VENDEN US$)"
+    },
+    "SE": {
+        "codigo": "SE",
+        "name": "SECTOR ENERG\u00c9TICO (DISTRIBUIDORAS Y GENERADORAS)"
+    },
+    "ST": {
+        "codigo": "ST",
+        "name": "SERVICIOS DE TRANSPORTE"
+    },
+    "TEL": {
+        "codigo": "TEL",
+        "name": "TELECOMUNICACIONES"
+    },
+    "TU": {
+        "codigo": "TU",
+        "name": "TURISMO"
+    },
+    "ZF": {
+        "codigo": "ZF",
+        "name": "ZONAS FRANCAS"
+    },
+    "None": {
+        "codigo": "None",
+        "name": null
+    }
+}
