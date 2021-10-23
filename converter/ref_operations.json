@@ -1,0 +1,74 @@
+{
+    "1": {
+        "codigo": 1,
+        "operation": "DEP\u00d3SITOS EN EFECTIVO Y/O CHEQUE"
+    },
+    "2": {
+        "codigo": 2,
+        "operation": "APERTURA DE INSTRUMENTO FINANCIERO"
+    },
+    "3": {
+        "codigo": 3,
+        "operation": "TRANSFERENCIA ELECTR\u00d3NICA ENVIADA"
+    },
+    "4": {
+        "codigo": 4,
+        "operation": "TRANSFERENCIA ELECTR\u00d3NICA RECIBIDA"
+    },
+    "5": {
+        "codigo": 5,
+        "operation": "VENTA DE DIVISAS"
+    },
+    "6": {
+        "codigo": 6,
+        "operation": "COMPRA DE DIVISAS"
+    },
+    "7": {
+        "codigo": 7,
+        "operation": "VENTA DE CHEQUES (ADMINISTRACI\u00d3N, VIAJERO, CERTIFICADOS)"
+    },
+    "8": {
+        "codigo": 8,
+        "operation": "PAGOS EN EFECTIVO Y/O CHEQUE"
+    },
+    "9": {
+        "codigo": 9,
+        "operation": "COMPRA DE CHEQUES (ADMINISTRACI\u00d3N, VIAJERO, CERTIFICADOS)"
+    },
+    "12": {
+        "codigo": 12,
+        "operation": "RETIROS EN EFECTIVO"
+    },
+    "16": {
+        "codigo": 16,
+        "operation": "VENTA O RECARGA DE TARJETA PREPAGADA"
+    },
+    "20": {
+        "codigo": 20,
+        "operation": "REMESA RECIBIDA"
+    },
+    "21": {
+        "codigo": 21,
+        "operation": "REMESA ENVIADA"
+    },
+    "22": {
+        "codigo": 22,
+        "operation": "CANCELACI\u00d3N DE INSTRUMENTO FINANCIERO"
+    },
+    "31": {
+        "codigo": 31,
+        "operation": "RECEPCI\u00d3N Y TRAMITACI\u00d3N DE SOLICITUDES DE PRODUCTOS Y SERVICIOS"
+    },
+    "32": {
+        "codigo": 32,
+        "operation": "CONSULTA DE MOVIMIENTOS Y BALANCE"
+    },
+    "33": {
+        "codigo": 33,
+        "operation": "RECEPCI\u00d3N DE RECLAMACIONES"
+    },
+    "50": {
+        "codigo": 50,
+        "operation": "INTENTO DE VINCULACI\u00d3N"
+    }
+}

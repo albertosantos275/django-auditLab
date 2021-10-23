@@ -1,0 +1,674 @@
+{
+    "111": {
+        "codigo": 111,
+        "service": "Pr\u00e9stamos Comerciales a Trav\u00e9s de L\u00edneas de Cr\u00e9dito",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "112": {
+        "codigo": 112,
+        "service": "Pr\u00e9stamos Comerciales Individuales",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "113": {
+        "codigo": 113,
+        "service": "Pr\u00e9stamos Comerciales Pool de Bancos",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "114": {
+        "codigo": 114,
+        "service": "Pr\u00e9stamos Interbancarios",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "115": {
+        "codigo": 115,
+        "service": "L\u00edneas de cr\u00e9dito asociadas a las operaciones de Confirming",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "121": {
+        "codigo": 121,
+        "service": "Microcr\u00e9dito Grupal (Cr\u00e9ditos otorgados a 2 o m\u00e1s personas con garant\u00eda mancomunada e indivisible)",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "122": {
+        "codigo": 122,
+        "service": "Microcr\u00e9dito a Trav\u00e9s de L\u00edneas de Cr\u00e9dito",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "123": {
+        "codigo": 123,
+        "service": "Microcr\u00e9dito Individual",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "124": {
+        "codigo": 124,
+        "service": "Microcr\u00e9dito Comunal",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "131": {
+        "codigo": 131,
+        "service": "Tarjeta de Cr\u00e9dito Corporativa",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "132": {
+        "codigo": 132,
+        "service": "Tarjeta de Cr\u00e9dito Empresarial",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "133": {
+        "codigo": 133,
+        "service": "Tarjeta de Cr\u00e9dito Distribuci\u00f3n/Suplidor",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "134": {
+        "codigo": 134,
+        "service": "Tarjeta de Cr\u00e9dito Empresarial Flotilla",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "141": {
+        "codigo": 141,
+        "service": "Adelantos en Cuenta Corriente",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "142": {
+        "codigo": 142,
+        "service": "Documentos Descontados",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "143": {
+        "codigo": 143,
+        "service": "Descuentos de Facturas",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "144": {
+        "codigo": 144,
+        "service": "Anticipos sobre Documentos de Exportaci\u00f3n",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "145": {
+        "codigo": 145,
+        "service": "Compras de T\u00edtulos con Pacto de Reventa Operaciones de Reporto",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "146": {
+        "codigo": 146,
+        "service": "Arrendamientos Financieros (Leasing)",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "147": {
+        "codigo": 147,
+        "service": "Cartas de Cr\u00e9dito Emitidas",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "148": {
+        "codigo": 148,
+        "service": "Cartas de Cr\u00e9ditos Confirmadas",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "149": {
+        "codigo": 149,
+        "service": "Participaci\u00f3n en Hipotecas Aseguradas",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "151": {
+        "codigo": 151,
+        "service": "Venta de Bienes Adjudicados",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "161": {
+        "codigo": 161,
+        "service": "Pr\u00e9stamos Personales para Gastos",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "162": {
+        "codigo": 162,
+        "service": "Pr\u00e9stamos a Trav\u00e9s de L\u00edneas de Cr\u00e9dito Personales (Cr\u00e9ditos Diferidos Etc.)",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "163": {
+        "codigo": 163,
+        "service": "Pr\u00e9stamos Personales con Descuento por N\u00f3mina",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "164": {
+        "codigo": 164,
+        "service": "Pr\u00e9stamos Personales con Garant\u00eda de Certificados Financieros",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "165": {
+        "codigo": 165,
+        "service": "Pr\u00e9stamos Personales para Veh\u00edculos Nuevos",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "166": {
+        "codigo": 166,
+        "service": "Pr\u00e9stamos Personales para Veh\u00edculos Usados",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "167": {
+        "codigo": 167,
+        "service": "Pr\u00e9stamos Personales para Solares",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "168": {
+        "codigo": 168,
+        "service": "L\u00edneas de Cr\u00e9dito Personales para Gastos Educativos",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "169": {
+        "codigo": 169,
+        "service": "Pr\u00e9stamos Personales para Gastos Educativos",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "171": {
+        "codigo": 171,
+        "service": "Tarjeta de Cr\u00e9dito Personal Cl\u00e1sica/Standard",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "172": {
+        "codigo": 172,
+        "service": "Tarjeta de Cr\u00e9dito Personal Oro/Gold",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "173": {
+        "codigo": 173,
+        "service": "Tarjeta de Cr\u00e9dito Personal Platino/Platinum (o superior)",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "174": {
+        "codigo": 174,
+        "service": "Tarjeta de Cr\u00e9dito Personal Flotilla",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "181": {
+        "codigo": 181,
+        "service": "Pr\u00e9stamo para adquisici\u00f3n de la Vivienda del Deudor",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "182": {
+        "codigo": 182,
+        "service": "Pr\u00e9stamo para la Construcci\u00f3n de la Vivienda del Deudor",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "183": {
+        "codigo": 183,
+        "service": "Pr\u00e9stamo para adquisici\u00f3n de Segunda Vivienda o Veraneo",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "184": {
+        "codigo": 184,
+        "service": "Pr\u00e9stamo para la Construcci\u00f3n de 2da Vivienda o Veraneo",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "185": {
+        "codigo": 185,
+        "service": "Pr\u00e9stamos para Adquisici\u00f3n de la vivienda del deudor de bajo costo procedente de un fideicomiso",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "186": {
+        "codigo": 186,
+        "service": "Pr\u00e9stamos para Adquisici\u00f3n de segunda vivienda o veraneo de bajo costo procedente de un fideicomiso",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "187": {
+        "codigo": 187,
+        "service": "Pr\u00e9stamos para la Remodelaci\u00f3n de la vivienda del deudor",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "188": {
+        "codigo": 188,
+        "service": "Pr\u00e9stamos para la Remodelaci\u00f3n de la  segunda vivienda \u00f3 veraneo",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "190": {
+        "codigo": 190,
+        "service": "Mutuos de T\u00edtulos Valores de Deuda",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "191": {
+        "codigo": 191,
+        "service": "L\u00edneas de Cr\u00e9dito Personales para Gastos Educativos Superior",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "192": {
+        "codigo": 192,
+        "service": "Pr\u00e9stamos Personales para Gastos Educativos Superior",
+        "tipo": "FACILIDADES CREDITICIAS",
+        "phase": "Integraci\u00f3n"
+    },
+    "211": {
+        "codigo": 211,
+        "service": "Cuentas Corrientes No Remuneradas",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Colocaci\u00f3n"
+    },
+    "212": {
+        "codigo": 212,
+        "service": "Cuentas Corrientes Remuneradas",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Colocaci\u00f3n"
+    },
+    "213": {
+        "codigo": 213,
+        "service": "Cuentas de Ahorro",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Colocaci\u00f3n"
+    },
+    "214": {
+        "codigo": 214,
+        "service": "Dep\u00f3sitos Overnight BC",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "215": {
+        "codigo": 215,
+        "service": "Dep\u00f3sitos Interbancarios",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "216": {
+        "codigo": 216,
+        "service": "Cuenta de Ahorro Programado",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Colocaci\u00f3n"
+    },
+    "221": {
+        "codigo": 221,
+        "service": "Dep\u00f3sitos a Plazo",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Colocaci\u00f3n"
+    },
+    "231": {
+        "codigo": 231,
+        "service": "Certificados Financieros",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Colocaci\u00f3n"
+    },
+    "232": {
+        "codigo": 232,
+        "service": "Certificados de Inversi\u00f3n",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Colocaci\u00f3n"
+    },
+    "233": {
+        "codigo": 233,
+        "service": "Letras",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "234": {
+        "codigo": 234,
+        "service": "Notas",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "235": {
+        "codigo": 235,
+        "service": "C\u00e9dulas Hipotecarias",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "236": {
+        "codigo": 236,
+        "service": "Aceptaciones Bancarias",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "237": {
+        "codigo": 237,
+        "service": "Certificados de Participaci\u00f3n Contratos de Participaci\u00f3n Hipotecaria",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "238": {
+        "codigo": 238,
+        "service": "Pagar\u00e9s Negociables",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "239": {
+        "codigo": 239,
+        "service": "Papeles Comerciales",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "251": {
+        "codigo": 251,
+        "service": "Bonos de Caja o B\u00e1sicos",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "252": {
+        "codigo": 252,
+        "service": "Bonos Rescatables (Callable Bonds)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "253": {
+        "codigo": 253,
+        "service": "Bonos con Pacto de Recompra (Repos)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "254": {
+        "codigo": 254,
+        "service": "Bonos con Opci\u00f3n de Venta (Put Bonds)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "255": {
+        "codigo": 255,
+        "service": "Bonos Segregados (Strips)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "256": {
+        "codigo": 256,
+        "service": "Bonos Perpetuos (Sin Vencimiento)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "257": {
+        "codigo": 257,
+        "service": "Bonos Subordinados",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "258": {
+        "codigo": 258,
+        "service": "Bonos Canjeables (Por Acciones Existentes)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "259": {
+        "codigo": 259,
+        "service": "Bonos Convertibles (En Nuevas Acciones)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "260": {
+        "codigo": 260,
+        "service": "Bonos con Opci\u00f3n de Venta y Compra",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "261": {
+        "codigo": 261,
+        "service": "Bonos con Plan de amortizaci\u00f3n",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "262": {
+        "codigo": 262,
+        "service": "Bonos con Plan de amortizaci\u00f3n con opci\u00f3n de compra",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "263": {
+        "codigo": 263,
+        "service": "Bonos con Plan de amortizaci\u00f3n con opci\u00f3n de venta",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "264": {
+        "codigo": 264,
+        "service": "Bonos con Plan de amortizaci\u00f3n con opci\u00f3n de compra y venta",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "265": {
+        "codigo": 265,
+        "service": "Bonos Perpetuos con opci\u00f3n de compra",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "266": {
+        "codigo": 266,
+        "service": "Cuotas de Participaci\u00f3n en Fondos de Inversi\u00f3n Abiertos o Fondos Mutuos",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "267": {
+        "codigo": 267,
+        "service": "Cuotas de Participaci\u00f3n en Fondos de Inversi\u00f3n Cerrados",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "291": {
+        "codigo": 291,
+        "service": "Acciones Comunes",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "292": {
+        "codigo": 292,
+        "service": "Acciones Preferentes",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "300": {
+        "codigo": 300,
+        "service": "Derivados",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "301": {
+        "codigo": 301,
+        "service": "Contratos a Plazo de T\u00edtulos Valores de Deuda",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "302": {
+        "codigo": 302,
+        "service": "Contratos a Plazo de Tasa de Inter\u00e9s (Forward Rate Agreements)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "303": {
+        "codigo": 303,
+        "service": "Contratos a Plazo de Divisas con Entrega (Full Delivery Currency Forward)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "304": {
+        "codigo": 304,
+        "service": "Contratos a Plazo de Divisas de Cobertura (Non Delivery Currency Forward)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "305": {
+        "codigo": 305,
+        "service": "Permutas de Tasa de Inter\u00e9s (Interest Rate Swaps)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "306": {
+        "codigo": 306,
+        "service": "Permutas Cambiarias Directas (Foreign Exchange Swaps)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "307": {
+        "codigo": 307,
+        "service": "Permutas de Divisas (Cross-Currency Swaps)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "308": {
+        "codigo": 308,
+        "service": "Notas Estructuradas de Cr\u00e9dito (Credit-Linked Notes)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "400": {
+        "codigo": 400,
+        "service": "Garant\u00edas Otorgadas (Avales, Fianzas y Otras Garant\u00edas)",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "501": {
+        "codigo": 501,
+        "service": "Valores de Fideicomisos",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "502": {
+        "codigo": 502,
+        "service": "Valores Hipotecarios Titularizados",
+        "tipo": "FACILIDADES DE CAPTACI\u00d3N O INVERSI\u00d3N",
+        "phase": "Integraci\u00f3n"
+    },
+    "611": {
+        "codigo": 611,
+        "service": "Operaciones Internacionales",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "612": {
+        "codigo": 612,
+        "service": "Cajeros Autom\u00e1ticos",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "613": {
+        "codigo": 613,
+        "service": "Banca Seguro",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Integraci\u00f3n"
+    },
+    "614": {
+        "codigo": 614,
+        "service": "Fonobanco",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Integraci\u00f3n"
+    },
+    "615": {
+        "codigo": 615,
+        "service": "Remesas",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "616": {
+        "codigo": 616,
+        "service": "Cajas de Seguridad",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Colocaci\u00f3n"
+    },
+    "617": {
+        "codigo": 617,
+        "service": "Transferencias",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "618": {
+        "codigo": 618,
+        "service": "Cheques de Administraci\u00f3n",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "619": {
+        "codigo": 619,
+        "service": "Pago de Impuestos",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Integraci\u00f3n"
+    },
+    "620": {
+        "codigo": 620,
+        "service": "Pago de Productos y Servicios",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Integraci\u00f3n"
+    },
+    "621": {
+        "codigo": 621,
+        "service": "Cheques de Viajero",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Colocaci\u00f3n"
+    },
+    "622": {
+        "codigo": 622,
+        "service": "Canje de Divisas",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "623": {
+        "codigo": 623,
+        "service": "Cheques Certificados",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "624": {
+        "codigo": 624,
+        "service": "Tarjetas Prepago",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Colocaci\u00f3n"
+    },
+    "625": {
+        "codigo": 625,
+        "service": "Tarjetas de D\u00e9bito",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Estratificaci\u00f3n"
+    },
+    "626": {
+        "codigo": 626,
+        "service": "Cartas de Referencia (Saldo, Consulares, Etc.)",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Integraci\u00f3n"
+    },
+    "627": {
+        "codigo": 627,
+        "service": "Arrendamiento de Valijas para Dep\u00f3sitos Nocturnos.",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Colocaci\u00f3n"
+    },
+    "628": {
+        "codigo": 628,
+        "service": "Pago de luz, telecable, tel\u00e9fono, etc.",
+        "tipo": "SERVICIOS CONEXOS",
+        "phase": "Integraci\u00f3n"
+    }
+}

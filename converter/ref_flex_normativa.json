@@ -1,0 +1,50 @@
+{
+    "C8": {
+        "codigo": "C8",
+        "name": "Cuarta Resoluci\u00f3n de la Junta Monetaria, del 12 de febrero de 2009 que instruye a la Superintendencia de Bancos a incorporar elementos anal\u00edticos para evaluaci\u00f3n deudores; verificar modificaciones realizadas a pr\u00e9stamos sean por razones de mercado; as\u00ed como excluir de manera transitoria l\u00edmites de concentraci\u00f3n las inversiones en bonos del tesoro de los EEUU y normativas complementarias."
+    },
+    "E1": {
+        "codigo": "E1",
+        "name": "Tercera Resoluci\u00f3n de la Junta Monetaria, del 25 de abril de 2013, Liberaci\u00f3n Encaje Legal para EIF otorgar pr\u00e9stamos varios."
+    },
+    "E2": {
+        "codigo": "E2",
+        "name": "Primera Resoluci\u00f3n de la Junta Monetaria, del 26 de marzo de 2015, liberaci\u00f3n Encaje Legal para viviendas de bajo costo."
+    },
+    "E3": {
+        "codigo": "E3",
+        "name": "S\u00e9ptima Resoluci\u00f3n de la Junta Monetaria, del 21 de julio de 2016, levanta la pignoraci\u00f3n de t\u00edtulos para pr\u00e9stamos a viviendas con el encaje legal."
+    },
+    "E4": {
+        "codigo": "E4",
+        "name": "Segunda Resoluci\u00f3n de la Junta Monetaria del 8 de diciembre de 2016,  liberaci\u00f3n Encaje Legal para productores agropecuarios."
+    },
+    "E5": {
+        "codigo": "E5",
+        "name": "Primera Resoluci\u00f3n de la Junta Monetaria del 27 de julio de 2017, sobre  liberaci\u00f3n Encaje Legal a las EIF a ser canalizados a los sectores: Exportaci\u00f3n, industria manufacturera, agropecuario, comercio, micro, peque\u00f1as y medianas empresas (MIPYMES), adquisici\u00f3n de viviendas de hasta RD$8.0 millones, as\u00ed como pr\u00e9stamos de consumo personales, incluyendo veh\u00edculos. E6 Segunda  Resoluci\u00f3n de la Junta Monetaria del 26 de Octubre 2017 sobre liberaci\u00f3n Encaje Legal a ser canalizado a las EIF a cualquiera de los sectores de la econom\u00eda que as\u00ed lo demande."
+    },
+    "E7": {
+        "codigo": "E7",
+        "name": "Tercera Resoluci\u00f3n de la Junta Monetaria del 26 de Octubre 2017 sobre  dispensa a deudores afectados por impacto por eventos clim\u00e1ticos."
+    },
+    "E8": {
+        "codigo": "E8",
+        "name": "Tercera Resoluci\u00f3n de la Junta Monetaria del 26 de Octubre 2017 sobre cr\u00e9ditos nuevos otorgado a deudores afectados por impacto por eventos clim\u00e1ticos."
+    },
+    "EC": {
+        "codigo": "EC",
+        "name": "Cuarta Resoluci\u00f3n de la Junta Monetaria del 8 de diciembre de 2016, dispensa a deudores afectados por impacto por eventos clim\u00e1ticos."
+    },
+    "PB": {
+        "codigo": "PB",
+        "name": "S\u00e9ptima Resoluci\u00f3n de la Junta Monetaria, del 20 de diciembre de 2016, Pr\u00e9stamos Comerciales Sindicados (Pool de Bancos) aplica exclusivamente para las entidades siguientes: Banco de Reservas de la Rep\u00fablica Dominicana - Banco de Servicios M\u00faltiples; Banco Popular Dominicano, S. A.- Banco M\u00faltiple; Banco M\u00faltiple BHD Le\u00f3n, S. A.; Citibank, N. A. - Sucursal Rep\u00fablica Dominicana; The Bank of Nova Scotia - Sucursal Rep\u00fablica Dominicana; Banco M\u00faltiple Santa Cruz, S. A.; Banco Dominicano del Progreso, S. A. - Banco M\u00faltiple; Banesco Banco M\u00faltiple, S. A.; Banco M\u00faltiple Lafise, S. A.; Banco M\u00faltiple BDI, S. A.; Banco M\u00faltiple Vimenca, S. A.; Banco M\u00faltiple ADEMI, S. A.; Banco M\u00faltiple Prom\u00e9rica de la Rep\u00fablica Dominicana, S. A.; Banco M\u00faltiple de Las Am\u00e9ricas, S. A.; Banco M\u00faltiple Caribe Internacional, S. A.; y Banco M\u00faltiple L\u00f3pez de Haro, S. A."
+    },
+    "RL": {
+        "codigo": "RL",
+        "name": "Ley No. 141-15, de Reestructuraci\u00f3n y Liquidaci\u00f3n de Empresas y Personas F\u00edsicas Comerciantes, del 7 de agosto del 2015."
+    },
+    "None": {
+        "codigo": "None",
+        "name": null
+    }
+}

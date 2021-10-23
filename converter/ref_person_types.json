@@ -1,0 +1,47 @@
+{
+    "P3": {
+        "codigo": "P3",
+        "user": "Dominicano con Cedula",
+        "risk": "Bajo"
+    },
+    "P4": {
+        "codigo": "P4",
+        "user": "Extranjero con Cedula",
+        "risk": "Medio"
+    },
+    "P5": {
+        "codigo": "P5",
+        "user": "Dominicana con Cedula",
+        "risk": "Bajo"
+    },
+    "P6": {
+        "codigo": "P6",
+        "user": "Extranjera con Cedula",
+        "risk": "Medio"
+    },
+    "P7": {
+        "codigo": "P7",
+        "user": "Extranjero con Pasaporte",
+        "risk": "Alto"
+    },
+    "P8": {
+        "codigo": "P8",
+        "user": "Extranjera con Pasaporte",
+        "risk": "Alto"
+    },
+    "E1": {
+        "codigo": "E1",
+        "user": "Empresa Dominicana",
+        "risk": "Medio"
+    },
+    "E2": {
+        "codigo": "E2",
+        "user": "Empresa Extranjera No Financiera",
+        "risk": "Alto"
+    },
+    "E3": {
+        "codigo": "E3",
+        "user": "Empresa Extranjera Financiera",
+        "risk": "Medio"
+    }
+}

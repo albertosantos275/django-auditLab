@@ -1,0 +1,94 @@
+{
+    "A": {
+        "codigo": "A",
+        "name": "Capacidad de pago del deudor es fuerte "
+    },
+    "B": {
+        "codigo": "B",
+        "name": "Capacidad de pago con deterioro temporal "
+    },
+    "C": {
+        "codigo": "C",
+        "name": "Capacidad de pago con deterioro permanente "
+    },
+    "D": {
+        "codigo": "D",
+        "name": "Flujo de efectivo negativo en \u00faltimo per\u00edodo fiscal "
+    },
+    "E": {
+        "codigo": "E",
+        "name": "Flujo de efectivo negativo en dos o m\u00e1s per\u00edodos fiscales "
+    },
+    "F": {
+        "codigo": "F",
+        "name": "P\u00e9rdidas operativas o netas hasta 10% patrimonio ajustado "
+    },
+    "G": {
+        "codigo": "G",
+        "name": "P\u00e9rdidas operativas o netas hasta 25% patrimonio ajustado "
+    },
+    "H": {
+        "codigo": "H",
+        "name": "P\u00e9rdidas operativas o netas hasta 50% patrimonio ajustado "
+    },
+    "I": {
+        "codigo": "I",
+        "name": "P\u00e9rdidas operativas o netas mayores al 50% patrimonio ajustado "
+    },
+    "J": {
+        "codigo": "J",
+        "name": "Deudor en Proceso de Reestructuraci\u00f3n, conforme a la Ley 141-15 "
+    },
+    "K": {
+        "codigo": "K",
+        "name": "Deudor en Proceso de Liquidaci\u00f3n Judicial, conforme a la Ley 141-15 "
+    },
+    "L": {
+        "codigo": "L",
+        "name": "Deudor con notas negativas en estados financieros auditados por parte de auditores externos "
+    },
+    "M": {
+        "codigo": "M",
+        "name": "Deudor sin informaci\u00f3n financiera o con informaci\u00f3n financiera no confiable o suficiente "
+    },
+    "N": {
+        "codigo": "N",
+        "name": "Clasificaci\u00f3n otorgada por el Riesgo Pa\u00eds del deudor "
+    },
+    "O": {
+        "codigo": "O",
+        "name": "Clasificaci\u00f3n heredada por garante solidario o casa matriz "
+    },
+    "P": {
+        "codigo": "P",
+        "name": "Clasificaci\u00f3n otorgada por proceso de alineaci\u00f3n "
+    },
+    "Q": {
+        "codigo": "Q",
+        "name": "Comportamiento de Pago sin atrasos "
+    },
+    "R": {
+        "codigo": "R",
+        "name": "Deterioro en Comportamiento de Pago "
+    },
+    "S": {
+        "codigo": "S",
+        "name": "Mejor\u00eda en Comportamiento de Pago "
+    },
+    "T": {
+        "codigo": "T",
+        "name": "Morosidad "
+    },
+    "U": {
+        "codigo": "U",
+        "name": "Reestructuraci\u00f3n del cr\u00e9dito "
+    },
+    "V": {
+        "codigo": "V",
+        "name": "Reclasificaci\u00f3n por la SIB "
+    },
+    "None": {
+        "codigo": "None",
+        "name": null
+    }
+}

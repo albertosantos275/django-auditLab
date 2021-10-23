@@ -1,0 +1,23 @@
+{
+    "agregates": {
+        "BANCO BHD LEON": {
+            "total": 1769.9299999999998,
+            "amount": 3,
+            "name": "BANCO BHD LEON",
+            "perc": 63.8980046427166
+        },
+        "BANK OF AMERICA, N.A.": {
+            "total": 500.0,
+            "amount": 1,
+            "name": "BANK OF AMERICA, N.A.",
+            "perc": 18.0509976786417
+        },
+        "COMMONWELTH BANK OF AUSTRALIA SYDNEY": {
+            "total": 500.0,
+            "amount": 1,
+            "name": "COMMONWELTH BANK OF AUSTRALIA SYDNEY",
+            "perc": 18.0509976786417
+        }
+    },
+    "total": 2769.93
+}
