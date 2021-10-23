@@ -15,7 +15,6 @@ from datetime import timedelta
 from pathlib import Path
 import os
 
-from a_bank.report_interface import launch_create_report
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -361,6 +360,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 from a_bank.models import Activity, PrecendentCrime,Risk
 from datetime import datetime
+from a_bank.task import launch_create_report
 
 
 @csrf_exempt
@@ -383,25 +383,8 @@ def test_views(request):
                         file_format=f.content_type, file_size=f.size
                         )
             file.save()
-        file_paths = File.objects.filter(
-            batch_id=batch.id).values_list('file_url', flat=True)
 
-        absolute_files_path = []
-        if len(file_paths) > 0:
-            for path in file_paths:
-                absolute_files_path.append(MEDIA_DIR + '/' + path)
 
-        # TODO method to report
-        batch_info = {}
-        batch_info['batch_id'] = batch.id
-        batch_info['absolute_files_path'] = absolute_files_path
-        batch_info['file_type_id'] = batch.file_type_id.id
-        batch_info['file_type_code'] = batch.file_type_id.code
-        batch_info['result_storage_path'] = MEDIA_DIR + '/' + 'ResultStorage'
-
-        created_file=launch_create_report(batch_info)
-        print(batch_info)
-        print(created_file)
 
         return HttpResponse(json_res, content_type='application/json')
 
