@@ -9,7 +9,8 @@ from rest_framework import generics
 from rest_framework import mixins
 from django.shortcuts import render
 import django_filters
-from a_bank.models import Bank, Batch, File, Risk,FileTypes
+from a_report.models import Risk
+from a_bank.models import Bank, Batch, File,FileTypes
 from a_bank.serializers import BankSerializer, FileSerializer, BatchSerializer,FileTypesSerializer
 from datetime import timedelta
 from pathlib import Path
@@ -172,10 +173,11 @@ class  FileTypesAPIView(generics.GenericAPIView,mixins.CreateModelMixin,mixins.L
 
 
 
-
+###########################################################################################
+# Use these to creeate the parser for the json file file that goes into the db
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
-from a_bank.models import Activity, PrecendentCrime,Risk,ReportByActivity,OperationType,ReportByOperation,ReportByPerson,PersonType,ServiceType,ReportByService,ReportBySuspicious
+from a_report.models import Activity, PrecendentCrime,Risk,ReportByActivity,OperationType,ReportByOperation,ReportByPerson,PersonType,ServiceType,ReportByService,ReportBySuspicious
 from datetime import datetime
 
 @csrf_exempt
@@ -358,7 +360,7 @@ def report_data_endpoint(request):
 
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
-from a_bank.models import Activity, PrecendentCrime,Risk
+from a_report.models import  PrecendentCrime,Risk, Activity
 from datetime import datetime
 from a_bank.tasks import launch_create_report
 
@@ -413,7 +415,7 @@ def test_views(request):
 
         launch_create_report.delay(batch_info)
  
-        # print(created_file)
+        print("Report send to wating list")
 
 
 

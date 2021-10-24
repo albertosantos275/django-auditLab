@@ -4,6 +4,8 @@ celery -A auditLab worker -l INFO --concurrency=44
 celery -A auditLab worker -l INFO  --autoscale=10,3
 
 
+celery -A auditLab flower
+
 #install redis 
 sudo apt-get install redis-server
 

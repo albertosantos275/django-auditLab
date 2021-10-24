@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django_filters',  
     'a_account',
     'a_bank',
+    'a_report',
     'corsheaders',
 ]
 
