@@ -16,20 +16,4 @@ def launch_create_report(info):
 
     create_report(input_dir,output_file, 'if01')
 
-    # try:
-    #     args=["python3",f"{home_dir}/converter/main_django.py", input_dir,output_file, 'if01']
-    #     cp = subprocess.run(args)
-    # except Exception as e:
-    #     print('Error == > ',e)
-    # return output_file
-
-#code for testing
-# info={
-#   'absolute_files_path':"/scratch/excels",
-#     'file_type_code':'if01',
-#     'result_storage_path':'/scratch/results'
-
-# }
-
-# s=launch_create_report(info)
-# print(s)
+   

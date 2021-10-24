@@ -27,6 +27,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 from a_report.models import Activity, PrecendentCrime,Risk,ReportByActivity,OperationType,ReportByOperation,ReportByPerson,PersonType,ServiceType,ReportByService,ReportBySuspicious
 from datetime import datetime
+from a_report.serializers import ReportByActivitySerializer
 
 @csrf_exempt
 @require_http_methods(["GET","POST"])
@@ -35,3 +36,43 @@ def report_data_endpoint(request):
     print('aqui')
     json_res = {}
     return HttpResponse(json_res,content_type='application/json')
+
+
+#Filter By activity Api View
+class ReportByActivityFilter(django_filters.FilterSet):
+
+    class Meta:
+        model = ReportByActivity
+        fields = ['batch_id']
+
+#Report By activity Api View
+class  BankAPIView(generics.GenericAPIView,mixins.CreateModelMixin,mixins.ListModelMixin,
+                            mixins.UpdateModelMixin,mixins.RetrieveModelMixin,mixins.DestroyModelMixin):
+
+    serializer_class = ReportByActivitySerializer
+    queryset = ReportByActivity.objects.all()
+    filter_class = ReportByActivityFilter
+    
+    #for url pattern
+    lookup_field = 'id'
+
+    permission_classes = [IsAuthenticated]
+
+    def get(self,request,id = None):
+        if id:
+            return self.retrieve(request)
+        else:
+            #if id = 0 show all the records
+            return self.list(request)
+
+    def post(self, request):
+
+        return self.create(request)
+
+    def put(self,request,id=None):
+
+        return self.update(request,id)
+
+    def delete(self,request,id):
+
+        return  self.destroy(request,id)
