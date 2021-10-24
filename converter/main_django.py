@@ -11,12 +11,14 @@ import json
 #concat files
 #call processer 
 #save output file
+from pathlib import Path
 
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONVERTER_DIR = os.path.join(BASE_DIR, 'converter')
 
-print("changing path")
-home = expanduser("~")
-my_path=f"{home}/converter/"
-os.chdir(my_path)
+print("Changing path CONVERTER_DIR")
+os.chdir(CONVERTER_DIR)
 
 
 
@@ -66,7 +68,7 @@ def create_report(input_paths,outputfile, filetype):
     print('Creating report ....', input_paths)
     try:
         start_time=datetime.datetime.timestamp(datetime.datetime.utcnow())
-        temp_name= f"{home}/{int(start_time)}.xlsx"
+        temp_name= f"{CONVERTER_DIR}/temp/{int(start_time)}.xlsx"
         print(temp_name)
         merge_excel.concat_files(input_paths,temp_name)
         temp_outputfile = outputfile.replace(".json",".xlsx")

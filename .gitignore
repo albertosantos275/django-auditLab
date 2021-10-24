@@ -6,5 +6,6 @@
 *.exe
 /__pycache__*
 ZHelp.txt
+/media*
 
 

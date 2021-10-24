@@ -5,7 +5,6 @@ import uuid
 import os
 from pathlib import Path
 from django.db.models import signals
-from a_bank.task import launch_create_report
 from django.contrib.auth import get_user_model
 User = get_user_model()
 
@@ -52,37 +51,9 @@ class Batch(models.Model):
     class Meta:
         verbose_name = '2-Batch'
 
-def batch_post_save(sender, instance, signal, *args, **kwargs):
-
-    BASE_DIR = Path(__file__).resolve().parent.parent
-    MEDIA_DIR = os.path.join(BASE_DIR, 'media')
-
-    # if not instance.is_verified:
-        # Send verification email
-    print('Calling Asyync task after bastch created ')
-    file_paths = File.objects.filter(
-    batch_id=instance.id).values_list('file_url', flat=True)
-    
-    absolute_files_path = []
-    if len(file_paths) > 0:
-        for path in file_paths:
-            absolute_files_path.append(MEDIA_DIR + '/' + path)
-
-    # TODO method to report
-    batch_info = {}
-    batch_info['batch_id'] = instance.id
-    # MEDIA_DIR + '/' +  batch.bank_id.name + '/' + batch.file_type_id.code + '/'
-    batch_info['absolute_files_path'] = absolute_files_path
-    batch_info['file_type_id'] = instance.file_type_id.id
-    batch_info['file_type_code'] = instance.file_type_id.code
-    batch_info['result_storage_path'] = MEDIA_DIR + '/' + 'ResultStorage'
-
-    created_file=launch_create_report(batch_info)
-    print(batch_info)
-    print(created_file)
-
+# def batch_post_save(sender, instance, signal, *args, **kwargs):
  
-signals.post_save.connect(batch_post_save, sender=Batch)
+# signals.post_save.connect(batch_post_save, sender=Batch)
 
 
 
