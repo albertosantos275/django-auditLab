@@ -25,7 +25,6 @@ urlpatterns = [
     #test function view
    path('test_app/',views.test_views, name='test_views'),
 
-    #report end point
-   path('report_end_point/',views.report_data_endpoint, name='report_end_point'),
+
 
 ]

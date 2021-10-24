@@ -17,6 +17,12 @@ class Activity(models.Model):
     code_ciiv = models.CharField(max_length=100, blank=False, unique=True)
     macro = models.CharField(max_length=80, blank=True, unique=False)
     activity = models.CharField(max_length=100, blank=True, unique=False)
+    DP1 = models.CharField(max_length=200, blank=True, unique=False)
+    DP2 = models.CharField(max_length=200, blank=True, unique=False)
+    DP3 = models.CharField(max_length=200, blank=True, unique=False)
+    R1 = models.CharField(max_length=200, blank=True, unique=False)
+    R2 = models.CharField(max_length=200, blank=True, unique=False)
+    R3 = models.CharField(max_length=200, blank=True, unique=False)
     precedent_crime_ids =  models.ManyToManyField('PrecendentCrime',blank=True, unique=False)
     risk_ids =  models.ManyToManyField('Risk',blank=True, unique=False)
 
@@ -55,7 +61,6 @@ class PrecendentCrime(models.Model):
 #By Activity
 class ReportByActivity(models.Model): 
     batch_id = models.ForeignKey('a_bank.Batch',related_name='report_activity_type_batch',on_delete=models.CASCADE,unique=False,blank=False,null=False)   
-    activity_id = models.ForeignKey(Activity,related_name='activity_type_batch',on_delete=models.CASCADE,unique=False,blank=True,null=True)
     precendent_crime_id = models.ForeignKey(PrecendentCrime,related_name='precedent_crime_risk_type_batch',on_delete=models.CASCADE,unique=False,blank=False,null=True)
     risk_id = models.ForeignKey(Risk,related_name='risk_batch',on_delete=models.CASCADE,unique=False,blank=False,null=True)
     total = models.IntegerField(blank=True, null=True)

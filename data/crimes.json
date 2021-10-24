@@ -1,6 +1,6 @@
 [
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 1,
         "fields": {
             "name": "Delito Tributario",
@@ -9,7 +9,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 2,
         "fields": {
             "name": "Delito de Medio Ambiente",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 3,
         "fields": {
             "name": "Tr�fico Il�cito de seres humanos (incluyendo inmigrantes ilegales)",
@@ -27,7 +27,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 4,
         "fields": {
             "name": "Pirater�a o Falsificac�on",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 5,
         "fields": {
             "name": "Contrabando",
@@ -45,7 +45,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 6,
         "fields": {
             "name": "Estafa",
@@ -54,7 +54,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 7,
         "fields": {
             "name": "Delito contra la Propiedad Intelectual",
@@ -63,7 +63,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 8,
         "fields": {
             "name": "Extorsi�n (incluyendo aquellas relacionadas con las grabaciones y f�lmicas electr�nicas realizadas por personas f�sicas o morales)",
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 9,
         "fields": {
             "name": "Falsificaci�n de Documentos P�blicos",
@@ -81,7 +81,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 10,
         "fields": {
             "name": "Uso indebido de Informaci�n Confidencial o Privilegiada",
@@ -90,7 +90,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 11,
         "fields": {
             "name": "Cr�menes y Delitos de Alta Tecnolog�a",
@@ -99,7 +99,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 12,
         "fields": {
             "name": "Falsificaci�n y Adulteraci�n de Medicamentos Alimentos y Bebidas",
@@ -108,7 +108,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 13,
         "fields": {
             "name": "Tr�fico Il�cito de Armas",
@@ -117,7 +117,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 14,
         "fields": {
             "name": "Infracci�n relacionada con el Financiamiento del Terrorismo",
@@ -126,7 +126,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 15,
         "fields": {
             "name": "Falsificaci�n de monedas valores o t�tulos",
@@ -135,7 +135,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 16,
         "fields": {
             "name": "Tr�fico Il�cito de Mercanc�as, Obras de Arte, Joyas y Esculturas",
@@ -144,7 +144,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 17,
         "fields": {
             "name": "Manipulaci�n del Mercado",
@@ -153,7 +153,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 18,
         "fields": {
             "name": "Estafa contra el Estado, desfalco, concusi�n, cohecho, soborno, tr�fico de influencia, prevaricaci�n y delitos cometidos por los funcionarios p�blicos en el ejercicio de sus funciones",
@@ -162,7 +162,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 19,
         "fields": {
             "name": "Tr�fico il�cito de drogas y sustancias controladas",
@@ -171,7 +171,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 20,
         "fields": {
             "name": "Robo",
@@ -180,7 +180,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 22,
         "fields": {
             "name": "Testaferrato",
@@ -189,7 +189,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 23,
         "fields": {
             "name": "Delitos Financieros",
@@ -198,7 +198,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 24,
         "fields": {
             "name": "Robo Agravado",
@@ -207,7 +207,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 25,
         "fields": {
             "name": "Pirater�a de Productos",
@@ -216,7 +216,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 27,
         "fields": {
             "name": "Enriquecimiento No Justificado",
@@ -225,7 +225,7 @@
         }
     },
     {
-        "model": "a_bank.precendentcrime",
+        "model": "a_report.precendentcrime",
         "pk": 29,
         "fields": {
             "name": "Estafa Agravada",

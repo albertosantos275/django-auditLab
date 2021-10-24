@@ -1,6 +1,6 @@
 [
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 1,
         "fields": {
             "name": "Actividad Comercial sin Permisos Correspondientes",
@@ -9,7 +9,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 2,
         "fields": {
             "name": "Lavado de Dinero a trav�s del Comercio",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 3,
         "fields": {
             "name": "Negocio Pantalla",
@@ -27,7 +27,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 4,
         "fields": {
             "name": "Uso Inapropiado de Informaci�n de Tercero",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 5,
         "fields": {
             "name": "Negocio Relacionado a Crimenes de Violencia",
@@ -45,7 +45,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 6,
         "fields": {
             "name": "Enriquecimiento No Justificado",
@@ -54,7 +54,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 8,
         "fields": {
             "name": "Fraude",
@@ -63,7 +63,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 9,
         "fields": {
             "name": "Estafa Agravada",
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 10,
         "fields": {
             "name": "Delito de Medio Ambiente",
@@ -81,7 +81,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 11,
         "fields": {
             "name": "Transporte de Mercancias",
@@ -90,7 +90,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 12,
         "fields": {
             "name": "Tr�fico de Influencia",
@@ -99,7 +99,7 @@
         }
     },
     {
-        "model": "a_bank.risk",
+        "model": "a_report.risk",
         "pk": 14,
         "fields": {
             "name": "Falsificaci�n de Documentos P�blicos",
