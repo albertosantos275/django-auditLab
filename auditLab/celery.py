@@ -1,7 +1,7 @@
 import os
 from celery import Celery
  
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'quick_publisher.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'auditLab.settings')
  
 app = Celery('auditLab')
 app.config_from_object('django.conf:settings')

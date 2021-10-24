@@ -360,7 +360,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 from a_bank.models import Activity, PrecendentCrime,Risk
 from datetime import datetime
-from a_bank.task import launch_create_report
+from a_bank.tasks import launch_create_report
 
 
 @csrf_exempt
@@ -373,6 +373,8 @@ def test_views(request):
         file_type_id = request.POST.get('file_type_id', '')
 
         number_files = len(request.FILES.getlist('files'))
+        print('POST DATa  === >', bank_id, file_type_id)
+
         bank = Bank.objects.get(id=bank_id)
         file_type = FileTypes.objects.get(id=file_type_id)
         batch = Batch(bank_id=bank, file_type_id=file_type,
@@ -383,6 +385,35 @@ def test_views(request):
                         file_format=f.content_type, file_size=f.size
                         )
             file.save()
+
+
+        BASE_DIR = Path(__file__).resolve().parent.parent
+        MEDIA_DIR = os.path.join(BASE_DIR, 'media')
+
+        # # if not instance.is_verified:
+        #     # Send verification email
+        print('Calling Asyync task after bastch created ')
+        file_paths = File.objects.filter(batch_id=batch.id).values_list('file_url', flat=True)
+        
+        absolute_files_path = []
+        if len(file_paths) > 0:
+            for path in file_paths:
+                absolute_files_path.append(MEDIA_DIR + '/' + path)
+
+        # # TODO method to report
+        batch_info = {}
+        batch_info['batch_id'] = batch.id
+        # MEDIA_DIR + '/' +  batch.bank_id.name + '/' + batch.file_type_id.code + '/'
+        print('Files number path :  ', absolute_files_path)
+        batch_info['absolute_files_path'] = absolute_files_path
+        batch_info['file_type_id'] = batch.file_type_id.id
+        batch_info['file_type_code'] = batch.file_type_id.code
+        batch_info['result_storage_path'] = MEDIA_DIR + '/' + 'ResultStorage'
+        print('batch_info ', batch_info)
+
+        launch_create_report.delay(batch_info)
+ 
+        # print(created_file)
 
 
 

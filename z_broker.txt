@@ -1,0 +1,13 @@
+celery -A auditLab worker --loglevel=debug --concurrency=4
+
+celery -A auditLab worker -l INFO --concurrency=44
+celery -A auditLab worker -l INFO  --autoscale=10,3
+
+
+#install redis 
+sudo apt-get install redis-server
+
+
+
+python manage.py runserver  --noreload 0.0.0.0:8000
+python manage.py runserver 0.0.0.0:8000
